@@ -300,11 +300,6 @@ hash = "98de570e4873e332455e5526ed5b62779cdb23c217efac51ad864ae510861456"
 metafile = true
 
 [[files]]
-file = "mods/cameraoverhaul.pw.toml"
-hash = "51f925e75075df676cc1efff5bb8db9d828842c0f3031310a05dbf368aa67393"
-metafile = true
-
-[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
 metafile = true
@@ -427,11 +422,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "b63999aa63a273098f42e22d8d5018c8617b8e2babdffc752d9aad3eefaaa76d"
-metafile = true
-
-[[files]]
-file = "mods/crash-assistant.pw.toml"
-hash = "f13994485d9005720181e64c20c8b20204edea6749030877fdcbe0b6fd6de443"
 metafile = true
 
 [[files]]
