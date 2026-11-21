@@ -18,19 +18,51 @@ menu_background {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = true
+  keepaspectratio = false
 }
 
 element {
   element_type = image
-  instance_identifier = minefactory_intro
-  source = [source:local]/config/fancymenu/assets/logo_intro.apng
+  instance_identifier = minefactory_loading_cover
+  source = [source:local]/config/fancymenu/assets/background.png
+  repeat_texture = false
+  nine_slice_texture = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  appearance_delay = no_delay
+}
+
+element {
+  element_type = image
+  instance_identifier = minefactory_loading_logo
+  source = [source:local]/config/fancymenu/assets/logo.png
   repeat_texture = false
   nine_slice_texture = false
   anchor_point = mid-centered
-  x = -240
-  y = -140
-  width = 480
-  height = 227
+  x = -170
+  y = -110
+  width = 340
+  height = 133
+  stretch_x = false
+  stretch_y = false
+  appearance_delay = no_delay
+}
+
+element {
+  element_type = drippy_vanilla_bar
+  instance_identifier = minefactory_loading_bar
+  color = #B66BFF
+  anchor_point = mid-centered
+  x = -150
+  y = 60
+  width = 300
+  height = 8
+  stretch_x = false
+  stretch_y = false
   appearance_delay = no_delay
 }
