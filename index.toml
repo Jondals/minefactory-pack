@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".nojekyll"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "README.md"
 hash = "db4562a8fe8cced3d19f6273f06db473ecc9abc0833b9fc6641db33cbbb8bdcb"
 
@@ -390,11 +394,6 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
-metafile = true
-
-[[files]]
-file = "mods/densefuel.pw.toml"
-hash = "d3e2dd2da2c294a9686586d1300ffbb5030b7661cd78ab19754027f1faf7e2a6"
 metafile = true
 
 [[files]]
