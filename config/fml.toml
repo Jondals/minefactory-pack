@@ -1,0 +1,2 @@
+#Ajuste de MineFactory: sin comprobación de versiones (quita el rombo verde del botón Mods). El resto de opciones usa sus valores por defecto.
+versionCheck = false

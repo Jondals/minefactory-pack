@@ -1,0 +1,3 @@
+#Ajuste de MineFactory: sin el botón de unirse al servidor oficial de The Aether en el menú principal.
+[Miscellaneous]
+	enable_server_button = false

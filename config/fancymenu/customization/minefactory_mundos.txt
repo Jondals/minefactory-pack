@@ -2,7 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = %fancymenu:universal_layout%
-  render_custom_elements_behind_vanilla = false
+  render_custom_elements_behind_vanilla = true
   last_edited_time = 1763692800000
   is_enabled = true
   randommode = false
@@ -16,9 +16,29 @@ layout-meta {
 }
 
 menu_background {
-  background_type = image
-  image_path = [source:local]/config/fancymenu/assets/bg_mundos.png
-  slide = false
-  repeat_texture = false
+  background_type = video
+  source = [source:local]/config/fancymenu/assets/menu_blur.mp4
+  loop = true
+  volume = 0.0
+  sound_source = master
   parallax = false
+  play_in_editor = true
+}
+
+element {
+  element_type = image
+  instance_identifier = minefactory_tono_mundos
+  source = [source:local]/config/fancymenu/assets/ov_mundos.png
+  repeat_texture = false
+  nine_slice_texture = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  appearance_delay = no_delay
+  fade_in = false
+  fade_in_speed = 1.0
 }

@@ -1,0 +1,7 @@
+#Ajuste de MineFactory: sin los botones de Cumulus (librería de The Aether) arriba a la derecha del menú principal.
+[Menu]
+	enable_menu_list_button = false
+
+["World Preview"]
+	enable_world_preview_button = false
+	enable_quick_load_button = false
