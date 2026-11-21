@@ -9,15 +9,16 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  universal_layout_whitelist = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen;net.minecraft.client.gui.screens.worldselection.CreateWorldScreen;net.minecraft.client.gui.screens.worldselection.EditWorldScreen;net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen;net.minecraft.client.gui.screens.worldselection.ExperimentsScreen;net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen;net.minecraft.client.gui.screens.multiplayer.SafetyScreen;net.minecraft.client.gui.screens.EditServerScreen;net.minecraft.client.gui.screens.DirectJoinServerScreen;net.minecraft.client.gui.screens.ConnectScreen;net.minecraft.client.gui.screens.DisconnectedScreen;net.minecraft.client.gui.screens.GenericMessageScreen;net.minecraft.client.gui.screens.ProgressScreen;net.minecraft.client.gui.screens.options.OptionsScreen;net.minecraft.client.gui.screens.options.VideoSettingsScreen;net.minecraft.client.gui.screens.options.SoundOptionsScreen;net.minecraft.client.gui.screens.options.LanguageSelectScreen;net.minecraft.client.gui.screens.options.MouseSettingsScreen;net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen;net.minecraft.client.gui.screens.options.ChatOptionsScreen;net.minecraft.client.gui.screens.options.SkinCustomizationScreen;net.minecraft.client.gui.screens.options.OnlineOptionsScreen;net.minecraft.client.gui.screens.options.controls.ControlsScreen;net.minecraft.client.gui.screens.options.controls.KeyBindsScreen;net.minecraft.client.gui.screens.packs.PackSelectionScreen;net.neoforged.neoforge.client.gui.ModListScreen;
+  widget_identifier_revision = 2
+  universal_layout_whitelist = net.minecraft.client.gui.screens.options.OptionsScreen;net.minecraft.client.gui.screens.options.VideoSettingsScreen;net.minecraft.client.gui.screens.options.SoundOptionsScreen;net.minecraft.client.gui.screens.options.LanguageSelectScreen;net.minecraft.client.gui.screens.options.MouseSettingsScreen;net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen;net.minecraft.client.gui.screens.options.ChatOptionsScreen;net.minecraft.client.gui.screens.options.SkinCustomizationScreen;net.minecraft.client.gui.screens.options.OnlineOptionsScreen;net.minecraft.client.gui.screens.options.FontOptionsScreen;net.minecraft.client.gui.screens.options.controls.ControlsScreen;net.minecraft.client.gui.screens.options.controls.KeyBindsScreen;net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen;net.minecraft.client.gui.screens.CreditsAndAttributionScreen;
+  [loading_requirement_container_meta:mf_fuera_de_partida_opciones] = [groups:][instances:mf_sin_mundo_opciones;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:mf_sin_mundo_opciones] = 
 }
 
 menu_background {
-  background_type = video
-  source = [source:local]/config/fancymenu/assets/menu_loop.mp4
-  loop = true
-  volume = 0.0
-  sound_source = master
+  background_type = image
+  image_path = [source:local]/config/fancymenu/assets/bg_opciones.png
+  slide = false
+  repeat_texture = false
   parallax = false
-  play_in_editor = true
 }

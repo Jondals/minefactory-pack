@@ -1,0 +1,4 @@
+#Ajuste de MineFactory: sin el botón de Create en el menú principal (descuadraba el diseño).
+#El botón sigue en el menú de pausa. El resto de opciones de Create se rellenan con sus valores por defecto.
+[client]
+	mainMenuConfigButtonRow = 0

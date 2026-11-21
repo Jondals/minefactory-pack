@@ -9,6 +9,10 @@ file = "README.md"
 hash = "db4562a8fe8cced3d19f6273f06db473ecc9abc0833b9fc6641db33cbbb8bdcb"
 
 [[files]]
+file = "config/create-client.toml"
+hash = "0699da5ba72be821f7964d9a90b6fd9ac0b48b971f7b607af55ec5bd504a9671"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "21c5ade7c0403493063662bedf215f91cdf5d42cf8ea8e0532b0ff0a121d60fb"
 
@@ -19,6 +23,22 @@ hash = "21ccf13b719bae887bbdf8ab47fe0fb34dbe92fece3a2a238ca0c8a36b2501ed"
 [[files]]
 file = "config/fancymenu/assets/background.png"
 hash = "b56129c8939e979c8e5b8973e80ae55a13c653b6fe03b28dd2ee699d702ee08e"
+
+[[files]]
+file = "config/fancymenu/assets/bg_multijugador.png"
+hash = "cb00dde4d84486be81f1b268ddec32c914d013d3842a843be8fadb61084fcdad"
+
+[[files]]
+file = "config/fancymenu/assets/bg_mundos.png"
+hash = "d9ffea1b026f34a6049e2d27a6a76f304277bd5ce9e3c95aebfa73a1166f8601"
+
+[[files]]
+file = "config/fancymenu/assets/bg_opciones.png"
+hash = "34abf5aeedd9185bdc5b7a74ab170d359bdd70bdf38c332fde3f0a6fd7bca1f2"
+
+[[files]]
+file = "config/fancymenu/assets/bg_packs.png"
+hash = "08198dae4d9cf6a8f340769c31fe1bcdd5352c7fe607a6ee96dd4d7072ee5aa1"
 
 [[files]]
 file = "config/fancymenu/assets/btn_hover.png"
@@ -53,12 +73,24 @@ file = "config/fancymenu/assets/title_overlay.png"
 hash = "42d1afaa9b4780a8a3823bccb6a19c1fceb76c37103071ad75358db5068771ae"
 
 [[files]]
+file = "config/fancymenu/customization/minefactory_multijugador.txt"
+hash = "e28e098a6bb68cf7a43d1fa8673741c209e9779cb5beff1a714514d8e7a5316f"
+
+[[files]]
+file = "config/fancymenu/customization/minefactory_mundos.txt"
+hash = "1348957d15cc9a9922f190b50da4988ed0216ccbc5d982370a27101a2b0527b1"
+
+[[files]]
+file = "config/fancymenu/customization/minefactory_packs.txt"
+hash = "ad16dc1914f4cad3ac0bb5f59a92ce1d834b309344fae808620de20e05ad171b"
+
+[[files]]
 file = "config/fancymenu/customization/minefactory_title.txt"
-hash = "dd70cc979cdc5e53d16678bd2c08d4eab71d192b1ae0e7434e5c90301de84ff9"
+hash = "6ee8c785e1e5686ecde0503b6cfb45c52ecbcc5d8d5aacd0f4b12855b99974de"
 
 [[files]]
 file = "config/fancymenu/customization/minefactory_universal.txt"
-hash = "274089964a1a6a700214a4dcc40c479379b753f341aedd71d8060699b3353d48"
+hash = "0e62c7093fd8059c176165250e92f0457e72c2fda059ce5b9f2ae754304ea184"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -1997,35 +2029,35 @@ hash = "ad32ac630c137a5d5c39a3391cccb0c6f6b4c923cb1180ddbbda1c39fe088adf"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/footer_separator.png"
-hash = "48c1069327376a1e7697f90362540be35ea77074ba3d39fa12dee3bdc3c8528b"
+hash = "e3b6960873a0d7bb7755c995094a5c9e7cd5d98e3694978b34c22b7aeefc1dca"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/header_separator.png"
-hash = "48c1069327376a1e7697f90362540be35ea77074ba3d39fa12dee3bdc3c8528b"
+hash = "c790751c07a67a7232c96ff99df1304bfcb4453d842dd7a60e74771e932e4979"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/inworld_footer_separator.png"
-hash = "48c1069327376a1e7697f90362540be35ea77074ba3d39fa12dee3bdc3c8528b"
+hash = "e3b6960873a0d7bb7755c995094a5c9e7cd5d98e3694978b34c22b7aeefc1dca"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/inworld_header_separator.png"
-hash = "48c1069327376a1e7697f90362540be35ea77074ba3d39fa12dee3bdc3c8528b"
+hash = "c790751c07a67a7232c96ff99df1304bfcb4453d842dd7a60e74771e932e4979"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/inworld_menu_background.png"
-hash = "55f56267ff5780baefa740e6346846aef8ddf8e8000deb6c1c006c2c14e02239"
+hash = "8a4a79e5bd8f16f9e9fa053c67da49fd70efa0d56082f169ff3762f6ca0e92fd"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/inworld_menu_list_background.png"
-hash = "cfdae59f4596727354a437cf5c94dc0eefc993055b2120f02f882c89d5113e2e"
+hash = "572572ad1b35e889e533df4b5096442db56188726dafdc5e81976caf2d1ae170"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/menu_background.png"
-hash = "fbe81609903442d0cdbb24aff8c7eea91c3ba3eccc4f663f859cf55826b5853d"
+hash = "1868404597cc4cb9f5c0c9bce30c06d7deb6d260075f36f856f98cf7683bd5f9"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/menu_list_background.png"
-hash = "dc3b91ecd4c6d24262100decd55ca4c0729559d9c38ff999133d7c36a4b2313b"
+hash = "7c00adce9b481f9313bc989c1a7d09276ed4d34c8cc5d9a4aac16d5092d4a568"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/button.png"
@@ -2052,8 +2084,176 @@ file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/w
 hash = "305cc395cd8eece44f7fe114558df0f94ee0038c39bf42dd72e629ef386fb93a"
 
 [[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/checkbox.png"
+hash = "ad4fdaa8ea6e5f37b125fb508ec2a0a8d8e6edff05facc295a4c42b8761d5672"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png"
+hash = "710a2420dda6e165dad9f186c9d13b7ba832c0848f76c22ca2a54b52c4af76e0"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png"
+hash = "9c4ff64883b1fdd6d21f4ba179aa0dee33659b6dc8adb8fb5ebeac13e4d67486"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png"
+hash = "dc7d739ce5bc69e3d3d0a22402b65c8d1bf6091f1ddd83dcb588bb5fbe4a7559"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/cross_button.png"
+hash = "566484836b93e988c5caf22752ec4e25da343e89240d4f8d5a55c60b0de23510"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/cross_button_highlighted.png"
+hash = "288786de03b13b5211dc3eb0a3be8cb83308fe67ba8ebae6f59c6b49cc17369a"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/locked_button.png"
+hash = "d842e9b4d41c8c6f26ae21768bd637d7567b5207a0343a18f706d34e8c8326b8"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png"
+hash = "94dfa16f033f82a60084a6937339739d0067964df398c98423191c43955e330f"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png"
+hash = "b1ffc7ff16c14cb0a536addd6c43e7a2114266d8d944088d827d241742a859bf"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/scroller.png"
+hash = "623c97a57e17e5c65b2a041660b28c436a461cea0749e43c82652014bbaf194c"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta"
+hash = "a7a4213011b3f07a7bb8f5e81fec3dfe73fed925eff8b609ba8bbc193fa078a9"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/scroller_background.png"
+hash = "1443efd96c92f5587e9e00a1bc3f222dfdcc7abfc4f783db48451e25accd2f8a"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta"
+hash = "a7a4213011b3f07a7bb8f5e81fec3dfe73fed925eff8b609ba8bbc193fa078a9"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider.png"
+hash = "4fc7fe22a20eeef7ee73694da4c998e6eebff2eb1c2e5eb9228f443589e80771"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta"
+hash = "e3177aec3d3554f23bbf7da1ea7edb714a2cc149bb0c5ccdd45eeb43914b75fa"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_handle.png"
+hash = "f4b8b68a59818be5ecd95be99220c8a54eb178cca959562b9ecf37f9ffbe4d09"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta"
+hash = "0126c111bc6b5a7700d5fcd1949eb46c003b5333442b307aae1c2c890990c049"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png"
+hash = "9eb93ad2d3a247a647e7883456675761b58d2248ea4410ebe6eedbc897088640"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta"
+hash = "0126c111bc6b5a7700d5fcd1949eb46c003b5333442b307aae1c2c890990c049"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png"
+hash = "0672c4481c152f22596152bc49c2172c3d7192de4297d0948bb61c683b78f53a"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta"
+hash = "e3177aec3d3554f23bbf7da1ea7edb714a2cc149bb0c5ccdd45eeb43914b75fa"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab.png"
+hash = "be94c2460b8179c19cdc1d91f10ca7923d861eca18546598bc592fc671793170"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta"
+hash = "27637ad847b94442c880b08519f0f62fc3ad3f4355d963a458d3f03b94f0f255"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png"
+hash = "80c67dc82769c2ec0f84c337f1858d896423331c99b31a7733fbcd3b51392fd9"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta"
+hash = "27637ad847b94442c880b08519f0f62fc3ad3f4355d963a458d3f03b94f0f255"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_selected.png"
+hash = "2b53cbe6a5e5da458e695ca6f5ddff72c240f18af21937cf8483d0ab1d4ac828"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta"
+hash = "27637ad847b94442c880b08519f0f62fc3ad3f4355d963a458d3f03b94f0f255"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png"
+hash = "d518d516e4038a4dbaa90c3468420850bab8ea4ef6db1f04fe22fa1e97dd007d"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta"
+hash = "27637ad847b94442c880b08519f0f62fc3ad3f4355d963a458d3f03b94f0f255"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/text_field.png"
+hash = "9afe8255e84ee03ddffcdbaef738dc928b1529ec4d5d90c3b31db0934153aca0"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta"
+hash = "e3177aec3d3554f23bbf7da1ea7edb714a2cc149bb0c5ccdd45eeb43914b75fa"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png"
+hash = "2d9b919747743db984f6d6e96d369c6acb30df71dc3b799c4d021ec374a2f185"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta"
+hash = "e3177aec3d3554f23bbf7da1ea7edb714a2cc149bb0c5ccdd45eeb43914b75fa"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/unlocked_button.png"
+hash = "4e98a1f8157156aa174fec6da6c63411cad4b7721ad6324b1cac55a20a3f7b7f"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png"
+hash = "9c1623d009c85c8c8eb9d58fb2c576dd6b8098af93d65ce2659fd191446415d3"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png"
+hash = "a2886711bf533f3e2161bfe849fe3e9c8af1eda21489fde6835c731f35390468"
+
+[[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/tab_header_background.png"
-hash = "1413e1a07c11a44b4710510fb14e1c318ab352181d699585ebebc39db45499e9"
+hash = "9d4ea8c2177d4e8e7bbc330b04b13d3fc088e2daa775764ead03cdac34b2b156"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "f0b92a5c729990217141f1a4464267e9c1f1a3986ff444e824fb9566f45aa38c"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "d2ed8050aa5882ff08a5d0dbbe657f58c17c4669434ed96b3169361af1dd02bc"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "e7ca2751a0c3915d3026584119cf113fdf0dc12d55c0ff1b7e631233c4ef9321"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "e69cbea07bf9000b9326f4c745570ddc0249c5c63688d9f9b56fa12b479bf515"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "89e9f9ea0ff77dd32c98f3d6d3ae500dc920985d1503ab0086afc080cb9a5bcc"
+
+[[files]]
+file = "resourcepacks/MineFactory-Extras/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "6056e2645200ec091bafb03ebc1395cf102dd62e0478a6154aff389ab9a573c3"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/sounds/music/menu.ogg"

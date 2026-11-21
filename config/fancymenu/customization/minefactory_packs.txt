@@ -1,0 +1,24 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1763692800000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  widget_identifier_revision = 2
+  universal_layout_whitelist = net.minecraft.client.gui.screens.packs.PackSelectionScreen;net.neoforged.neoforge.client.gui.ModListScreen;net.neoforged.neoforge.client.gui.ConfigurationScreen;net.neoforged.neoforge.client.gui.ConfigurationScreen$ConfigurationSectionScreen;net.neoforged.neoforge.client.gui.ConfigurationScreen$ConfigurationListScreen;
+  [loading_requirement_container_meta:mf_fuera_de_partida_packs] = [groups:][instances:mf_sin_mundo_packs;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:mf_sin_mundo_packs] = 
+}
+
+menu_background {
+  background_type = image
+  image_path = [source:local]/config/fancymenu/assets/bg_packs.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+}
