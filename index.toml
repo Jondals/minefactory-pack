@@ -690,11 +690,6 @@ hash = "7c811f8e9168cabfadc3a37cd995a5faf25962032d86f85e49a30b635da76b76"
 metafile = true
 
 [[files]]
-file = "mods/drawtogether.pw.toml"
-hash = "97083c70d5c997afe429ff0e8647c50208e6d23dcf752df21e6217e04be825df"
-metafile = true
-
-[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "d89b50af502aab4416e07fa8f92433a18fac11285fe1c39ebccea610dbfdd1e7"
 metafile = true
