@@ -390,11 +390,6 @@ hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
 metafile = true
 
 [[files]]
-file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "575ebf4c7a4d60e8db84e1dbbfed2c9bc73cd50abd61e5f37d92ac9a97cfd900"
-metafile = true
-
-[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "80455b28c3010ad153ccabc2998cb445b9854b26b386628243a9c8160b8d7e8e"
 metafile = true
@@ -1716,7 +1711,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
-hash = "87bbeb14cb18cf4f9a721c420da8dd39b1bae09f68f624d4276d8f1fdc4115e1"
+hash = "bf9ea8aec309bbb0ff5ee1bf1ceaf199e79ba2ae7a87d1cf763bea4ec8e82e1c"
 metafile = true
 
 [[files]]
