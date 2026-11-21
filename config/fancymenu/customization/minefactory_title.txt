@@ -9,6 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
+  widget_identifier_revision = 2
 }
 
 menu_background {
@@ -23,20 +24,166 @@ menu_background {
 
 element {
   element_type = image
+  instance_identifier = minefactory_overlay
+  source = [source:local]/config/fancymenu/assets/title_overlay.png
+  repeat_texture = false
+  nine_slice_texture = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  appearance_delay = no_delay
+  fade_in = false
+  fade_in_speed = 1.0
+}
+
+element {
+  element_type = image
   instance_identifier = minefactory_logo
   source = [source:local]/config/fancymenu/assets/logo.png
   repeat_texture = false
   nine_slice_texture = false
   anchor_point = top-centered
-  x = -170
+  x = -120
   y = 8
-  width = 340
-  height = 133
+  width = 240
+  height = 94
   stretch_x = false
   stretch_y = false
   appearance_delay = no_delay
   fade_in = true
   fade_in_speed = 1.0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_singleplayer_button
+  anchor_point = top-centered
+  x = -110
+  y = 112
+  width = 220
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  label = Un jugador
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E9DDFF
+  label_hover_color = #FFFFFF
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_multiplayer_button
+  anchor_point = top-centered
+  x = -110
+  y = 139
+  width = 220
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  label = Multijugador
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E9DDFF
+  label_hover_color = #FFFFFF
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:titlescreen_mods_button
+  anchor_point = top-centered
+  x = -110
+  y = 166
+  width = 70
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  label = Mods
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E9DDFF
+  label_hover_color = #FFFFFF
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_options_button
+  anchor_point = top-centered
+  x = -35
+  y = 166
+  width = 70
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  label = Opciones
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E9DDFF
+  label_hover_color = #FFFFFF
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_quit_button
+  anchor_point = top-centered
+  x = 40
+  y = 166
+  width = 70
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  label = Salir
+  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #E9DDFF
+  label_hover_color = #FFFFFF
+  label_shadow = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_accessibility_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_language_button
+  is_hidden = true
 }
 
 deep_element {
