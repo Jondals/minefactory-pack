@@ -1336,6 +1336,11 @@ hash = "12fa04dfc69d95c522b43e3d5a3e0d2439c332f51d87aea9c214631dd607a7ce"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
 file = "mods/pet-cemetery.pw.toml"
 hash = "f54003416e887882952b9a07e339829362c2c597ccd2d651c0a03d2120fb8a3a"
 metafile = true
@@ -1463,11 +1468,6 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
-metafile = true
-
-[[files]]
-file = "mods/scalablelux.pw.toml"
-hash = "9d9330972174ff5c68779f15ecd7023b357eb2e0a5bdc99b63ca7768e90616f1"
 metafile = true
 
 [[files]]
@@ -1603,11 +1603,6 @@ metafile = true
 [[files]]
 file = "mods/storage-delight.pw.toml"
 hash = "4b559c14c6ce28a32c383587b5f8c0e30f3ffc1ed0015e880eac8e561237588f"
-metafile = true
-
-[[files]]
-file = "mods/structory-towers.pw.toml"
-hash = "0f4f506b1171a3a7d7b73150721075f5b1bc703c043fa539bcdd72c93e665b94"
 metafile = true
 
 [[files]]
