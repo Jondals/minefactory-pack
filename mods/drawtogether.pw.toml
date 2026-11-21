@@ -1,6 +1,6 @@
 name = "DrawTogether"
 filename = "drawtogether-0.0.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/hoILU1vR/versions/7uuYkLuV/drawtogether-0.0.1.jar"

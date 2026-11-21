@@ -423,7 +423,7 @@ metafile = true
 
 [[files]]
 file = "mods/drawtogether.pw.toml"
-hash = "de99136682bc7535f46e4742c2f9a4b0059e4edcd6813f86bf91e51f28454f05"
+hash = "97083c70d5c997afe429ff0e8647c50208e6d23dcf752df21e6217e04be825df"
 metafile = true
 
 [[files]]
@@ -873,7 +873,7 @@ metafile = true
 
 [[files]]
 file = "mods/reactive-music.pw.toml"
-hash = "33fa736734fb66a878c89abd2e3c3f535af2a201942a80b01cb9896e7dd05b3c"
+hash = "b0eaa9f9d88d583de0929a74835d38a2a837ec34b4d78b1fe75068ca011eca42"
 metafile = true
 
 [[files]]
