@@ -197,6 +197,11 @@ hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
+file = "mods/artistry-live.pw.toml"
+hash = "650d46c9ad23e21f643d9699895f7c15d5808be8f16c62cbe3d0c7fc1439f926"
+metafile = true
+
+[[files]]
 file = "mods/artsandcrafts.pw.toml"
 hash = "9a23844ade250fbab5156335da02da6184e3256394ef7d8a146fbcd488111093"
 metafile = true

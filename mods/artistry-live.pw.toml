@@ -1,0 +1,13 @@
+name = "Artistry Live"
+filename = "artistry_live-1.2.3+neoforge.1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bGZucUcH/versions/kTddQ1kl/artistry_live-1.2.3%2Bneoforge.1.21.1.jar"
+hash-format = "sha512"
+hash = "7d8d6446e213f4692a2ed69fb98c9a1fb2a92465ca6d743808b3503036bc5bb6cccd30f9bb2e0ed6978d4c00dda4e367be06158e92ba78cfa5d4b8461e16616a"
+
+[update]
+[update.modrinth]
+mod-id = "bGZucUcH"
+version = "kTddQ1kl"
