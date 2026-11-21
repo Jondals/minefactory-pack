@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
+hash = "21347d7f9c96cebacb7238dbef2670e2906a11572606016c8184e9485947dacc"
 metafile = true
 
 [[files]]
@@ -232,11 +232,6 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "ddebe944d10b4a129d4fe780f15fa98dcccfabddda76d029307d8e1a8c318104"
-metafile = true
-
-[[files]]
-file = "mods/better-beds.pw.toml"
-hash = "8071f5bd344fcf5c1ecfd4dbf8830fcab70052931fdf17f372356df2e5bbb7b5"
 metafile = true
 
 [[files]]
@@ -760,11 +755,6 @@ hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
 metafile = true
 
 [[files]]
-file = "mods/ebe-reloaded.pw.toml"
-hash = "26e2b7ff79b9c0f18a7236c555b01a696c1ec8b0cd2e62580ae5f16678ff6bf8"
-metafile = true
-
-[[files]]
 file = "mods/edf-remastered.pw.toml"
 hash = "aa893b812f2075ff2bf084ddb869f9355313b9d763fb679aca86ceff835d5d58"
 metafile = true
@@ -902,11 +892,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
 metafile = true
 
 [[files]]
@@ -1142,11 +1127,6 @@ metafile = true
 [[files]]
 file = "mods/ksyxis.pw.toml"
 hash = "0546b1ffff8f721de68cf4e8963390b37de255d9c117bbb0370ae645e68839ca"
-metafile = true
-
-[[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
