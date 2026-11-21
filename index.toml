@@ -33,22 +33,6 @@ file = "config/fancymenu/assets/background.png"
 hash = "b56129c8939e979c8e5b8973e80ae55a13c653b6fe03b28dd2ee699d702ee08e"
 
 [[files]]
-file = "config/fancymenu/assets/bg_multijugador.png"
-hash = "cb00dde4d84486be81f1b268ddec32c914d013d3842a843be8fadb61084fcdad"
-
-[[files]]
-file = "config/fancymenu/assets/bg_mundos.png"
-hash = "d9ffea1b026f34a6049e2d27a6a76f304277bd5ce9e3c95aebfa73a1166f8601"
-
-[[files]]
-file = "config/fancymenu/assets/bg_opciones.png"
-hash = "34abf5aeedd9185bdc5b7a74ab170d359bdd70bdf38c332fde3f0a6fd7bca1f2"
-
-[[files]]
-file = "config/fancymenu/assets/bg_packs.png"
-hash = "08198dae4d9cf6a8f340769c31fe1bcdd5352c7fe607a6ee96dd4d7072ee5aa1"
-
-[[files]]
 file = "config/fancymenu/assets/btn_hover.png"
 hash = "ff95445fc5b0f83049510346132b8919fb8a8e698f1dd74383ea9063a0c22805"
 
