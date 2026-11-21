@@ -30,10 +30,10 @@ element {
   repeat_texture = false
   nine_slice_texture = false
   anchor_point = top-centered
-  x = -180
-  y = 6
-  width = 360
-  height = 114
+  x = -170
+  y = 4
+  width = 340
+  height = 133
   stretch_x = false
   stretch_y = false
   appearance_delay = no_delay

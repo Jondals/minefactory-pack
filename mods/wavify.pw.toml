@@ -1,0 +1,13 @@
+name = "Wavify"
+filename = "wavify-1.5.0-1.21.1-neo.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yTjEgNSm/versions/K2vDjnTn/wavify-1.5.0-1.21.1-neo.jar"
+hash-format = "sha512"
+hash = "ac5fc588f1d64466baf1a3e1abba010a16c74e2bfb08c76e4784744a551591329791f0978a5cb37300c2b850fd8a34549ce2d044ffcaffbfc8104b029f191d50"
+
+[update]
+[update.modrinth]
+mod-id = "yTjEgNSm"
+version = "K2vDjnTn"

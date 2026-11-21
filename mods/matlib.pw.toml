@@ -1,0 +1,13 @@
+name = "MatLib"
+filename = "matlib-1.0.1+1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gnefBeV1/versions/ikJ81lqY/matlib-1.0.1%2B1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "b854acc9bafcf04d3573a563f8cb40731d5a803579091281ea787eca7c8a07838acd03c27a49ac4a9b0959c9f7e007f935a1d74fa6f990ca8c57a9302f0743ef"
+
+[update]
+[update.modrinth]
+mod-id = "gnefBeV1"
+version = "ikJ81lqY"

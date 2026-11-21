@@ -1,0 +1,13 @@
+name = "Atmospheric Paintings"
+filename = "[neoforge-1.21.1]paintings_pack.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OWfnVQX4/versions/kFYxpi26/%5Bneoforge-1.21.1%5Dpaintings_pack.jar"
+hash-format = "sha512"
+hash = "56e9b086bcb31f308cebfaceacffa360267584fb514594e00dcd2c5765df05d5390ca8d3db1374320140c712c67243fe5ebecd9dda8219b42b775ba1644e4c0c"
+
+[update]
+[update.modrinth]
+mod-id = "OWfnVQX4"
+version = "kFYxpi26"

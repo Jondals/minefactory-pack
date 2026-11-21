@@ -28,9 +28,9 @@ element {
   repeat_texture = false
   nine_slice_texture = false
   anchor_point = mid-centered
-  x = -225
-  y = -110
-  width = 450
-  height = 150
+  x = -240
+  y = -140
+  width = 480
+  height = 227
   appearance_delay = no_delay
 }
