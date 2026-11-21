@@ -1,0 +1,13 @@
+version:3955
+lang:es_es
+renderDistance:12
+simulationDistance:6
+entityDistanceScaling:0.75
+graphicsMode:1
+maxFps:260
+enableVsync:false
+resourcePacks:["vanilla","mod_resources","file/MineFactory-Extras","file/Better-Leaves-9.6.zip","file/xali's enchanted book v1.0.0.zip","file/FreshAnimations_v1.11.2_1.20+.zip"]
+incompatibleResourcePacks:[]
+onboardAccessibility:false
+skipMultiplayerWarning:true
+joinedFirstServer:true

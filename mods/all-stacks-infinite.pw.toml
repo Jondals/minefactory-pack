@@ -1,0 +1,13 @@
+name = "All Stacks Infinite: Stacks of Stacks"
+filename = "allstacksinfinite-14.1.0.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2rLn4T4L/versions/ZylDduje/allstacksinfinite-14.1.0.11.jar"
+hash-format = "sha512"
+hash = "0260a42bdd108b483beeca6e605d2adcaf47be000f3967d78ec99329fa7f125df58203b009443b0937c9fe7f344a74b732ee26b6674926cb2375854776b8c4f2"
+
+[update]
+[update.modrinth]
+mod-id = "2rLn4T4L"
+version = "ZylDduje"

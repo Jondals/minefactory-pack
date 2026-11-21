@@ -1,0 +1,13 @@
+name = "Enchanting Plus (Forge/Neoforge/Fabric)"
+filename = "eplus-neoforge-6.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6cd7b0ae8fdfc249e2dda9f3ef6b8f4288413709"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8375234
+project-id = 1599016
