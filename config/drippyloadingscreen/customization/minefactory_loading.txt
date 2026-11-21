@@ -1,0 +1,36 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1763692800000
+  is_enabled = true
+  randommode = false
+  layout_index = 0
+}
+
+menu_background {
+  background_type = image
+  image_path = [source:local]/config/fancymenu/assets/background.png
+  slide = false
+  repeat_texture = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = minefactory_intro
+  source = [source:local]/config/fancymenu/assets/logo_intro.apng
+  repeat_texture = false
+  nine_slice_texture = false
+  anchor_point = mid-centered
+  x = -225
+  y = -110
+  width = 450
+  height = 150
+  appearance_delay = no_delay
+}

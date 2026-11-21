@@ -1,0 +1,13 @@
+name = "Better Enchantment Order"
+filename = "better-enchantment-order-V1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xQAP6sbq/versions/6rlndbPI/better-enchantment-order-V1.1.jar"
+hash-format = "sha512"
+hash = "1258673e25760a79d8d78a4d2a481c8c9d07ddecc1dd2cae6aebb914eb8aeb4d92537cd64aa79567c492bc0e7e3a54d9d7de47d8300a21b15adace7481cfbbdc"
+
+[update]
+[update.modrinth]
+mod-id = "xQAP6sbq"
+version = "6rlndbPI"

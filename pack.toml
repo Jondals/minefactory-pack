@@ -1,0 +1,13 @@
+name = "MineFactory SpaceAge ft. Mimor <3"
+author = "MineFactory"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4a9dae353a6d3dd9ef44671898e174f79ba7ae88a2a2bad02a9352e1805e17c8"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.267"
