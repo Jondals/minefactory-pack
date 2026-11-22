@@ -461,7 +461,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "a9fd327bb8855bdf68fbe88e17936ba866ea608bf2def5154fc52e0c1fe9514b"
+hash = "62960c4bdf7d3fc4a60b4959360342b7a3af5b7ac054091121b336b8716887ba"
 metafile = true
 
 [[files]]
@@ -541,7 +541,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "456f66abd180b3f5765473cda5e8acb1a6ea8b15b7ee34442be9a7af414cfc63"
+hash = "c9a4c5929341af6f88616f13151b3efdc44eb868db7d9c01ba5300ef96d9b8a3"
 metafile = true
 
 [[files]]
@@ -776,7 +776,7 @@ metafile = true
 
 [[files]]
 file = "mods/dragonlib.pw.toml"
-hash = "7c811f8e9168cabfadc3a37cd995a5faf25962032d86f85e49a30b635da76b76"
+hash = "2457cd418092e602c040441a24651ce013b316659ea89ce4934e1dc79df620a1"
 metafile = true
 
 [[files]]
@@ -1611,7 +1611,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
+hash = "5436ac58906c5eb870d3b75fb79b36d6a79ba55e32bb6ee3f198fe6d519b8b86"
 metafile = true
 
 [[files]]
@@ -1911,7 +1911,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "128d8bdba0257471463768d7decf2fd2dea077b52c297825bdcfc04e2358d273"
+hash = "05cdd0d0911ddbc8607db7a9bd1260d5ff5e55df46d8e943a9f1de53806e479c"
 metafile = true
 
 [[files]]
