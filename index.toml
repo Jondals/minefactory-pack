@@ -510,6 +510,11 @@ hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
 metafile = true
 
 [[files]]
+file = "mods/cosy-critters.pw.toml"
+hash = "b3035edda00323cd2439177ee1e8df738a9ceae12428a4fc7233293269323672"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "b63999aa63a273098f42e22d8d5018c8617b8e2babdffc752d9aad3eefaaa76d"
 metafile = true
@@ -750,6 +755,11 @@ hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]
+file = "mods/deermod.pw.toml"
+hash = "34369327af2c469baaca118f185c8f8d6d316e3c3906b3ec7b329cf4eea3dee3"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
@@ -837,6 +847,11 @@ metafile = true
 [[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
+metafile = true
+
+[[files]]
+file = "mods/ecologics.pw.toml"
+hash = "63d125990233b5268300d9ef5caf88cbea69886be4a777c412f70cbb8966ba26"
 metafile = true
 
 [[files]]

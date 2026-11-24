@@ -1,0 +1,13 @@
+name = "Deer Mod"
+filename = "deermod-neoforge-0.6.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nxu5cwsq/versions/ZxzsMlGK/deermod-neoforge-0.6.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "ab13e65b04352600494ce19928404276164a72059e13b27840cd1ab4ed6927836e50d6d776d0afe8d018ba3534774ce31bc33857c71bc06e69041270859c47e3"
+
+[update]
+[update.modrinth]
+mod-id = "Nxu5cwsq"
+version = "ZxzsMlGK"
