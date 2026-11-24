@@ -165,6 +165,11 @@ hash = "f392b954e704ac6ef19b5decb65d86cc0de9571159545fe87eb07c327fa2251c"
 metafile = true
 
 [[files]]
+file = "mods/advanced-chimneys.pw.toml"
+hash = "ba5e3ca3e09359ef2e39bc2dc452615f533502943c7bb336f004054f363d7ef1"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
@@ -277,6 +282,11 @@ metafile = true
 [[files]]
 file = "mods/aureljs-paintings.pw.toml"
 hash = "29e1643407981d69404d94c2deb8b3fcc4a36f50bdd04ef01b73e57517fd225f"
+metafile = true
+
+[[files]]
+file = "mods/auroras.pw.toml"
+hash = "ed60e047a5a85492c3d761238524888dca729e923b6753e060fd3dc986a8e54c"
 metafile = true
 
 [[files]]
@@ -696,7 +706,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "df853c80197aed779250a40af0432d9ee945c528edf0d8c829243af25113889a"
+hash = "16d93c68a816d518f37de50ead67d7b9731b0ec8d4f83e4b26dc56f0af97f3b4"
 metafile = true
 
 [[files]]
@@ -970,6 +980,11 @@ hash = "be3f1047eede67c5186a8015590245ef11b78d391d475a6671f52fff35003135"
 metafile = true
 
 [[files]]
+file = "mods/forgeendertech.pw.toml"
+hash = "0c1b9625beb7476450c24c2ded127d6a8b3fbbd7365baa1355964a29080f3e4a"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "981e52e1c4a97465921342f556cced335c6c75cdb050e9fc528d52cf4ff88b79"
 metafile = true
@@ -1041,7 +1056,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybrid-api.pw.toml"
-hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
+hash = "d2a5dbd90b927d700febdfb08bd2ce5ef1ab5684fa1eee5ca2dc5e1a412f6551"
 metafile = true
 
 [[files]]
@@ -1190,6 +1205,11 @@ hash = "5b21ffe8e89b5b31876365b950b2e44fe6d51f8e3d6d3f8c639174ed4f9f8c9c"
 metafile = true
 
 [[files]]
+file = "mods/jrftl.pw.toml"
+hash = "27e4b5adec7c73761cf3e3447657598cd45dcf3f88604ab2b4f2b160c27e2c2e"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "84f4b09b7ef3ef75478cfa6d126951958444d612375c99b1c4e7e6bdbef28c1c"
 metafile = true
@@ -1262,6 +1282,11 @@ metafile = true
 [[files]]
 file = "mods/lmd.pw.toml"
 hash = "80da9a0429682809b417e1f706aa43d6345b73e3581afe7be50b95b2aa7f2297"
+metafile = true
+
+[[files]]
+file = "mods/longwings.pw.toml"
+hash = "378ac3708928c86c03d7e8f1436b8d7c8dbef65ee00c905a79b73aedfa1fbb05"
 metafile = true
 
 [[files]]
@@ -1550,6 +1575,11 @@ hash = "1e2735c1185eb9a4fb89405b837d29cb4bb82b9eba34301cebb9fbbc834ffe26"
 metafile = true
 
 [[files]]
+file = "mods/pf-neoforge.pw.toml"
+hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
+metafile = true
+
+[[files]]
 file = "mods/philips-ruins.pw.toml"
 hash = "2488bf19149e671ab9fc63823029b19ebae6c4eeabb7ff748c0be341758a246b"
 metafile = true
@@ -1581,7 +1611,7 @@ metafile = true
 
 [[files]]
 file = "mods/playerrevive.pw.toml"
-hash = "2fce8261a3f3f1c97232926429dfc4aa7ba871a04ce4fde8d87f21404a6ac857"
+hash = "fda7bbe8fa433091960683217138d6a9511c6e5c459aad5fe86bbd58626a9c0d"
 metafile = true
 
 [[files]]
@@ -1932,6 +1962,11 @@ metafile = true
 [[files]]
 file = "mods/visuality-forge.pw.toml"
 hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
+metafile = true
+
+[[files]]
+file = "mods/water-depth-fog.pw.toml"
+hash = "a7da62765d6262800d885d59b93c7872b95f77b280808d50df2995e28f3ab9a6"
 metafile = true
 
 [[files]]
