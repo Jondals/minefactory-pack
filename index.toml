@@ -160,11 +160,6 @@ hash = "fd9698b3a981f1be9e64c2ef952a390f53cdd763199d567c6ec51e2b189772ad"
 metafile = true
 
 [[files]]
-file = "mods/adorabuild-structures.pw.toml"
-hash = "f392b954e704ac6ef19b5decb65d86cc0de9571159545fe87eb07c327fa2251c"
-metafile = true
-
-[[files]]
 file = "mods/advanced-chimneys.pw.toml"
 hash = "ba5e3ca3e09359ef2e39bc2dc452615f533502943c7bb336f004054f363d7ef1"
 metafile = true
@@ -945,11 +940,6 @@ hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
-file = "mods/explorify.pw.toml"
-hash = "133a8fa53146424351e19d604b1d47a100797a3361b8cb3c2ee8971ee84f63b4"
-metafile = true
-
-[[files]]
 file = "mods/exposure.pw.toml"
 hash = "2c88d3eceb7be9c5964ca32c24612ca08d7326b4cb06104e98d56efa777de640"
 metafile = true
@@ -1595,11 +1585,6 @@ hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
 
 [[files]]
-file = "mods/philips-ruins.pw.toml"
-hash = "2488bf19149e671ab9fc63823029b19ebae6c4eeabb7ff748c0be341758a246b"
-metafile = true
-
-[[files]]
 file = "mods/pick-up-notifier.pw.toml"
 hash = "49c0bacf8e4cb3ade6c384ad379282f92d7fa3075f2affd8e3093feb685288dd"
 metafile = true
@@ -1667,11 +1652,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "5436ac58906c5eb870d3b75fb79b36d6a79ba55e32bb6ee3f198fe6d519b8b86"
-metafile = true
-
-[[files]]
-file = "mods/regions-unexplored.pw.toml"
-hash = "3dcbee513d6df6f3feeca4749a60f0b425fe6b729af700eab5d8dfd50d5c7816"
 metafile = true
 
 [[files]]
@@ -1822,11 +1802,6 @@ metafile = true
 [[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
-metafile = true
-
-[[files]]
-file = "mods/stellarity.pw.toml"
-hash = "2a0794f30a563dc48063728a9b452125c4e45749283f103e396ec1890e518a14"
 metafile = true
 
 [[files]]
@@ -2067,11 +2042,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-end-island.pw.toml"
-hash = "03d964cba45be30fbcbef52f89f3953185737f55c8934d12e199b67194c2b368"
 metafile = true
 
 [[files]]
