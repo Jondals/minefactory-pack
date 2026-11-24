@@ -1655,6 +1655,11 @@ hash = "5436ac58906c5eb870d3b75fb79b36d6a79ba55e32bb6ee3f198fe6d519b8b86"
 metafile = true
 
 [[files]]
+file = "mods/regions-unexplored.pw.toml"
+hash = "3dcbee513d6df6f3feeca4749a60f0b425fe6b729af700eab5d8dfd50d5c7816"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
 metafile = true
