@@ -771,7 +771,7 @@ metafile = true
 
 [[files]]
 file = "mods/doggy-talents-next.pw.toml"
-hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
+hash = "cb089ebe57b35ccc103afadd5e313690fa418fc1e8e1c9f46aed2209e67b6123"
 metafile = true
 
 [[files]]
@@ -1101,7 +1101,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "a46a4220e4d467208a042ccd05cc8c2908733f02da6f5ecd532ab4cb2ed72909"
+hash = "53bf2dc4b6a32f8feb4aa56b53f16ef01892a25b0acaf992366f178424d3b9e8"
 metafile = true
 
 [[files]]
@@ -1406,7 +1406,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
+hash = "f1bfac09f701fe8ac07b10bfc3c811e951611c770cd62b4d8b60eb4ead939ef6"
 metafile = true
 
 [[files]]
@@ -1481,7 +1481,7 @@ metafile = true
 
 [[files]]
 file = "mods/notimeout.pw.toml"
-hash = "0ebcae98636a6bcf9a4c3e659aa7b0ddde1bfdff9c9a8790634df23ae9c4c8d3"
+hash = "a91ea87e05fbf65c8a3968e5cb56178e9d52f141397fa94f654f18eb24da349f"
 metafile = true
 
 [[files]]
