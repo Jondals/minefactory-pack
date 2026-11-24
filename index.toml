@@ -106,7 +106,7 @@ hash = "be27fef411cba257a6b4fcb5e750f30213762b13bd0826be17030eeb7cfcea79"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "38ce1a8d0c2c3d2de182303e5fe0dc1f585dfc07433e83591659c2bbce769fc5"
+hash = "d1d2efe3fc2783e466994cd9646b6cbba111389f00f9a50c178d2c8bb736ce10"
 
 [[files]]
 file = "config/fml.toml"

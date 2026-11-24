@@ -1,7 +1,7 @@
 ##[loading]
 
-[Intro desactivada: hacía esperar al juego casi 4 minutos al arrancar]
-S:game_intro_animation_name = '';
+[Intro de MineFactory: vídeo con sonido que sustituye a la pantalla de Mojang]
+S:game_intro_animation_name = '[source:local]/config/fancymenu/assets/intro.mp4';
 B:allow_game_intro_skip = 'true';
 B:game_intro_fade_out = 'true';
 B:game_intro_ignore_animation_loops = 'true';
