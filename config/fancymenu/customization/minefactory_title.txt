@@ -105,32 +105,16 @@ vanilla_button {
 vanilla_button {
   element_type = vanilla_button
   instance_identifier = vanillabtn:titlescreen_mods_button
-  anchor_point = mid-centered
-  x = -110
-  y = 62
-  width = 70
-  height = 22
-  stretch_x = false
-  stretch_y = false
-  label = Mods
-  backgroundnormal = [source:local]/config/fancymenu/assets/btn_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/btn_hover.png
-  background_texture_inactive = [source:local]/config/fancymenu/assets/btn_off.png
-  nine_slice_custom_background = true
-  nine_slice_border_x = 4
-  nine_slice_border_y = 4
-  label_base_color = #E9DDFF
-  label_hover_color = #FFFFFF
-  label_shadow = true
+  is_hidden = true
 }
 
 vanilla_button {
   element_type = vanilla_button
   instance_identifier = vanillabtn:mc_titlescreen_options_button
   anchor_point = mid-centered
-  x = -35
+  x = -110
   y = 62
-  width = 70
+  width = 107
   height = 22
   stretch_x = false
   stretch_y = false
@@ -150,9 +134,9 @@ vanilla_button {
   element_type = vanilla_button
   instance_identifier = vanillabtn:mc_titlescreen_quit_button
   anchor_point = mid-centered
-  x = 40
+  x = 3
   y = 62
-  width = 70
+  width = 107
   height = 22
   stretch_x = false
   stretch_y = false

@@ -1,12 +1,12 @@
 name = "MineFactory SpaceAge ft. Mimor <3"
 author = "MineFactory"
-version = "1.0.25"
+version = "1.0.26"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b32cf9b5c3289a2ffd23bbef5c9b98a0a1943ccfd4488520120e0125ec8698f8"
+hash = "c57606bf1af0f14bf33d3a1d71caed4aaa47d1f14081b46b2340c2f14de767ae"
 
 [versions]
 minecraft = "1.21.1"

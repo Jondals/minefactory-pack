@@ -98,7 +98,7 @@ hash = "f354bff0fcff9bf8a3ab33c3ceac75a92d5c49ff47c0b23c63da0619d0dafef6"
 
 [[files]]
 file = "config/fancymenu/customization/minefactory_title.txt"
-hash = "6ee8c785e1e5686ecde0503b6cfb45c52ecbcc5d8d5aacd0f4b12855b99974de"
+hash = "0413ece4bb3d8cffbc8ef01d84ba0bcd67f9202d5479786c66e15cddbd1620f9"
 
 [[files]]
 file = "config/fancymenu/customization/minefactory_universal.txt"
@@ -485,6 +485,11 @@ hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
+file = "mods/cool-rain-reforged.pw.toml"
+hash = "7c5d1fb47ffd309dc332ad2011e2e392b54d74dc49607872af01222a1df24186"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "b6b702e432d0a9089ab5ccbf0c83951f6afe1315822c668659b8b04e4f3b99f7"
 metafile = true
@@ -731,7 +736,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "e622857e271e0ebd3d80f84f8230474d76f0150354cb06832deac2134448cbcb"
+hash = "9ba9429afe373ac3b955325120adfd18d5cb342db0f7e12fb7774839a05c587d"
 metafile = true
 
 [[files]]
@@ -1786,7 +1791,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0a1237788f895c3a856423c1c7e60a11396c42e7526604543382237ada1aceff"
+hash = "65c41d1b44beac0643b10129ec2d6b60f456e8a55c6acf1740a932d39496b973"
 metafile = true
 
 [[files]]
@@ -1930,6 +1935,11 @@ hash = "e32edf3089c8b5c395fb9665f415254dc0e627dad6ab0dd26d85168b665aa024"
 metafile = true
 
 [[files]]
+file = "mods/vanilla-fireflies.pw.toml"
+hash = "95c1463e32bb43f828cfbacc5175021cca51e573bef39b33e2c9fc55351c417f"
+metafile = true
+
+[[files]]
 file = "mods/veinminer-client.pw.toml"
 hash = "8917fa65eb1a9112947e9472aad3fbde4e16a0422a572053c681c0f1bb258a21"
 metafile = true
@@ -1992,6 +2002,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
+metafile = true
+
+[[files]]
+file = "mods/whimsy-deco.pw.toml"
+hash = "327dcd023f8c426acc3f82294f34a3a1489464c8331a948986f656e7c8acad82"
 metafile = true
 
 [[files]]
