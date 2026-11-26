@@ -851,7 +851,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecologics.pw.toml"
-hash = "63d125990233b5268300d9ef5caf88cbea69886be4a777c412f70cbb8966ba26"
+hash = "9679a6419ea54ea96da77b92f0a44c51980e5dbe49c1322e885fc996d6c96c01"
 metafile = true
 
 [[files]]
@@ -866,7 +866,7 @@ metafile = true
 
 [[files]]
 file = "mods/emojiful.pw.toml"
-hash = "6fb320d3ab2a4b3ea9458c60a1fb1d0ceadebe4cceb17291db83699ec4bc7f3d"
+hash = "c94b440c43ce1028a25972ba6c97161efc31a920284e949f35f07e9a00eb0893"
 metafile = true
 
 [[files]]
