@@ -46,7 +46,7 @@ hash = "3aef61271bfb902f76997594ac77e12757a47e9bb4939f7d58dfe0b0a5d0e2a9"
 
 [[files]]
 file = "config/fancymenu/assets/icon.png"
-hash = "e65d6e0b81f24c5487dd790b7f0abe38aa94ed6e67634c3f8e6db7bb93effc21"
+hash = "f1de6e19091500f9280cb4a74188ae4954623b09a7d9ee836f3151a931ce06ec"
 
 [[files]]
 file = "config/fancymenu/assets/intro.mp4"
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
+hash = "21347d7f9c96cebacb7238dbef2670e2906a11572606016c8184e9485947dacc"
 metafile = true
 
 [[files]]
