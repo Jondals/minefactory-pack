@@ -22,7 +22,7 @@ hash = "3047970ae2e44b4e85c02688fee8c3df8b954a5cf914069dfcc9c20e4b83bd74"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "21c5ade7c0403493063662bedf215f91cdf5d42cf8ea8e0532b0ff0a121d60fb"
+hash = "a0a8669d1d668c34df4e35fe7087ef672ff6cd35fefe097c8958e7c941389909"
 
 [[files]]
 file = "config/drippyloadingscreen/customization/minefactory_loading.txt"
@@ -195,10 +195,6 @@ hash = "1720e896ee48c6e29e1b07eb1b487c0dccbe6a0bbff76a3356e167726d5053ae"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "04df91834f905b29d75ac8c3dbead4625ecb3802cbc6866941198056ca193935"
-
-[[files]]
-file = "kubejs/server_scripts/minefactory_progresion.js"
-hash = "efba4a40fe9d2a3bebdf9c49d35263d7bf0d98a42b48e0a99046b67d921ddace"
 
 [[files]]
 file = "mods/0pack2reload.pw.toml"

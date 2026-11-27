@@ -6,7 +6,7 @@ entityDistanceScaling:0.75
 graphicsMode:1
 maxFps:260
 enableVsync:false
-resourcePacks:["vanilla","mod_resources","file/MineFactory-Extras","file/Better-Leaves-9.6.zip","file/xali's enchanted book v1.0.0.zip","file/FreshAnimations_v1.11.2_1.20+.zip"]
+resourcePacks:["vanilla","mod_resources","file/MineFactory-Extras","file/Alternative Rain Sounds 1.21.9-1.21.11.zip","file/animated-items 1.21.x-26.3 - v1.6.3.zip","file/Better+Lanterns+v1.2(mc-1.21).zip","file/Better-Leaves-9.6.zip","file/EnderEyes_26.3_v3.1.zip","file/Dramatic Skys Demo 1.5.3.36.6.zip","file/enchant icons 1.21 v1.3.zip","file/Enhanced Audio r7.zip","file/EvenBetterEnchants_v2_r1.zip","file/Fancy_Beds-v4.2.zip","file/Font++ 1.0.9 (1.21.X or 26.X).zip","file/Enchantment Outlines.zip","file/Low Fire.zip","file/Low Shield.zip","file/RAYs_3D_Ladders_v2.5.zip","file/RAYs_3D_Rails_v3.8.zip","file/§eTorches§8-§eReimagined§0_§8[v1.10]§0.zip","file/SodiumTranslations.zip","file/Unique Dark - Lite - 1.20.2-26.x.zip","file/xali's enchanted book v1.0.0.zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"]
 incompatibleResourcePacks:[]
 onboardAccessibility:false
 skipMultiplayerWarning:true
