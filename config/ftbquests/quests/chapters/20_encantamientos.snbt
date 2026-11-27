@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20_encantamientos"
+	group: "7928779FF95E2C29"
+	icon: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+	id: "B706EEEAA1C12197"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "393C48BEB8D66F24"
+			rewards: [
+				{ id: "4395C75F7F87D787", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "AD92BBCD1117D1C6", item: { count: 1, id: "eplus:advanced_table" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["393C48BEB8D66F24"]
+			id: "391539E015BB6E09"
+			rewards: [
+				{ id: "E4E0EF24FCC2B0B5", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "4EFD43AE5BEE4BFD", item: { count: 1, id: "xpbook:xp_book" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["393C48BEB8D66F24"]
+			id: "646FB7005CB9F23B"
+			rewards: [
+				{ id: "8F090CD633153620", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "A89143F030289826", item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }, type: "item" }
+				{ id: "D6AC377402DC93AD", item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["646FB7005CB9F23B"]
+			id: "806CF2FD436F3CE3"
+			rewards: [
+				{ id: "8DBB57FF52B86D20", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "137311C1DEA63AA0", item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }, type: "item" }
+				{ id: "974F1B4B8EF00E4C", item: { count: 1, id: "create_enchantment_industry:enchanting_template" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["646FB7005CB9F23B"]
+			id: "C6B5397FB2F85EB1"
+			rewards: [
+				{ id: "BBC36B37D03D2070", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "2AAF79BA5AF845B0", item: { count: 1, id: "create_enchantment_industry:printer" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

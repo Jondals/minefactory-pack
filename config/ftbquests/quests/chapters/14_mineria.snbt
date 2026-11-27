@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "createoreexcavation:drilling_machine" }
 	id: "FA0C483F95B549F9"
-	order_index: 12
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["079F447EF5399AF3"]
-			description: [
-				"Create Ore Excavation: vetas infinitas bajo tierra."
-			]
 			id: "3D3E961253C32958"
 			rewards: [
 				{ id: "FE360B9E922F802D", type: "xp", xp: 50 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "95DCAA87B1A9E296", item: { count: 1, id: "createoreexcavation:vein_finder" }, type: "item" }
 			]
-			title: "Buscador de vetas"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3D3E961253C32958"]
-			description: [
-
-			]
 			id: "5FD3740067BF011A"
 			rewards: [
 				{ id: "F9A1C4DE7EB40708", type: "xp", xp: 150 }
@@ -37,15 +30,11 @@
 				{ id: "F4AB0AD401ADCEDF", item: { count: 1, id: "createoreexcavation:drilling_machine" }, type: "item" }
 				{ id: "1A2EE3B04A335E9F", item: { count: 1, id: "createoreexcavation:drill" }, type: "item" }
 			]
-			title: "Perforadora"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FD3740067BF011A"]
-			description: [
-				"Saca fluidos de las vetas."
-			]
 			id: "5882C942F5C8B78A"
 			rewards: [
 				{ id: "4F1241C2F60DCE1D", type: "xp", xp: 100 }
@@ -53,15 +42,11 @@
 			tasks: [
 				{ id: "0924615D4D785447", item: { count: 1, id: "createoreexcavation:extractor" }, type: "item" }
 			]
-			title: "Extractor"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5882C942F5C8B78A"]
-			description: [
-				"Create Sifter: grava y arena dan minerales."
-			]
 			id: "64D47D824D495DFC"
 			rewards: [
 				{ id: "74EEAA977616AE6D", type: "xp", xp: 50 }
@@ -69,10 +54,8 @@
 			tasks: [
 				{ id: "4721B389E23B951A", item: { count: 1, id: "createsifter:sifter" }, type: "item" }
 			]
-			title: "Tamiz"
 			x: 4.5d
 			y: 0.0d
 		}
 	]
-	title: "Minería industrial"
 }

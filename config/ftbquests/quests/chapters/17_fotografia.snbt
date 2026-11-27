@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "exposure:camera" }
 	id: "9490C19F6D907326"
-	order_index: 16
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: []
-			description: [
-				"Exposure: fotos reales del mundo."
-			]
 			id: "E5E058AA07573A87"
 			rewards: [
 				{ id: "5024758B66FF4480", type: "xp", xp: 30 }
@@ -21,15 +18,11 @@
 				{ id: "8CC7DC2846F4CCB0", item: { count: 1, id: "exposure:camera" }, type: "item" }
 				{ id: "EEB138F028C17ECD", item: { count: 1, id: "exposure:black_and_white_film" }, type: "item" }
 			]
-			title: "Cámara"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["E5E058AA07573A87"]
-			description: [
-				"Revela tus carretes."
-			]
 			id: "6B2E84A9E35DEE93"
 			rewards: [
 				{ id: "DEA50F9F38ECCAFC", type: "xp", xp: 50 }
@@ -37,15 +30,11 @@
 			tasks: [
 				{ id: "BEA8780D1B67577E", item: { count: 1, id: "exposure:lightroom" }, type: "item" }
 			]
-			title: "Cuarto oscuro"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6B2E84A9E35DEE93"]
-			description: [
-
-			]
 			id: "04F1D1C26D5BB108"
 			rewards: [
 				{ id: "8E789ACFB8B9ACB5", type: "xp", xp: 80 }
@@ -54,10 +43,8 @@
 				{ id: "8E474E979955460F", item: { count: 1, id: "exposure:photograph" }, type: "item", count: 4L }
 				{ id: "2BFD69E23DB45095", item: { count: 1, id: "exposure:album" }, type: "item" }
 			]
-			title: "Álbum"
 			x: 3.0d
 			y: 0.0d
 		}
 	]
-	title: "Fotografía"
 }

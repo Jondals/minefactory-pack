@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21_utilidades"
+	group: "7928779FF95E2C29"
+	icon: { count: 1, id: "create:white_toolbox" }
+	id: "47A3D894F3297838"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "2DC094D7CC130452"
+			rewards: [
+				{ id: "7179634A4D9B379F", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "DF913716394268C7", item: { count: 1, id: "wands:stone_wand" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "AFBF0F012C6FEF1B"
+			rewards: [
+				{ id: "CDA67D02981CCC68", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "C14CF3824D097A92", item: { count: 1, id: "mechtrowel:mech_trowel" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "D5587E1F6AA15AB8"
+			rewards: [
+				{ id: "178F6E1DA35623A0", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "DD423EDAA48D61F0", item: { count: 1, id: "chipped:chisel" }, type: "item" }
+				{ id: "7CFF4DA4AC31983A", item: { count: 1, id: "chipped:mason_table" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "964C8FA49F8FB43B"
+			rewards: [
+				{ id: "C53855B015C48532", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "093EDF2B0BC4C282", item: { count: 1, id: "create:white_toolbox" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "B870A14A276D0B97"
+			rewards: [
+				{ id: "E50273CB11AEB9B3", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "8C70361B9FA42A4D", item: { count: 1, id: "create:schematic_table" }, type: "item" }
+				{ id: "89F9D8B6A444E0B7", item: { count: 1, id: "create:schematicannon" }, type: "item" }
+				{ id: "2572B3A8FE85AAC4", item: { count: 1, id: "create:empty_schematic" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "F22998C6BE56EF3E"
+			rewards: [
+				{ id: "9DD0076249479F72", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "A9B1499FC86D3D58", item: { count: 1, id: "create:wand_of_symmetry" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "4FBB7750933AA058"
+			rewards: [
+				{ id: "2744763674ADCB57", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "BD2130300201AB85", item: { count: 1, id: "create:copper_backtank" }, type: "item" }
+				{ id: "B57A7E91CD432969", item: { count: 1, id: "create:extendo_grip" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "8CF14EABC3E33807"
+			rewards: [
+				{ id: "D86BAD1834EFA4AD", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "14A6310EA8223E2F", item: { count: 1, id: "create_power_loader:andesite_chunk_loader" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "890DD2C94A2B2D80"
+			rewards: [
+				{ id: "AE8E8E56DF4162D3", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "27CC16A51252E09D", item: { count: 1, id: "waystones:warp_stone" }, type: "item" }
+				{ id: "30E9CCB79459440F", item: { count: 1, id: "waystones:lime_sharestone" }, type: "item", count: 2L }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "2CA54CD8BC57E22E"
+			rewards: [
+				{ id: "B5549C244B598775", type: "xp", xp: 10 }
+			]
+			tasks: [
+				{ id: "C4F91EEB539E85B5", type: "checkmark" }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DC094D7CC130452"]
+			id: "C573633FE0038A3D"
+			rewards: [
+				{ id: "A0CC42B5EB8437B1", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "197BC35F43019B71", type: "checkmark" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "create:andesite_alloy" }
 	id: "E55FFB9334029483"
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3D10B968C8643943"]
-			description: [
-				"La base de todo Create. Hierro o zinc + andesita."
-			]
 			id: "CF885664868F6C2E"
 			rewards: [
 				{ id: "E628FB053FF626AA", type: "xp", xp: 20 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "9276564D09B620BE", item: { count: 1, id: "create:andesite_alloy" }, type: "item", count: 16L }
 			]
-			title: "Aleación de andesita"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["CF885664868F6C2E"]
-			description: [
-				"La fuerza rotacional viaja por ejes y engranajes."
-			]
 			id: "D32790713EAF0F0A"
 			rewards: [
 				{ id: "8C0E66AD77A3646C", type: "xp", xp: 20 }
@@ -37,15 +30,11 @@
 				{ id: "D437E3E7BAD9A31C", item: { count: 1, id: "create:shaft" }, type: "item", count: 8L }
 				{ id: "4BDAB2A75601536D", item: { count: 1, id: "create:cogwheel" }, type: "item", count: 4L }
 			]
-			title: "Ejes y engranajes"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D32790713EAF0F0A"]
-			description: [
-				"Tu primera fuente de energía. Ponla en agua que corra."
-			]
 			id: "FAA4A2A0BCCB4F57"
 			rewards: [
 				{ id: "CD7267E520B4002A", type: "xp", xp: 30 }
@@ -53,15 +42,11 @@
 			tasks: [
 				{ id: "B76DB946C091322C", item: { count: 1, id: "create:water_wheel" }, type: "item" }
 			]
-			title: "Energía del agua"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["FAA4A2A0BCCB4F57"]
-			description: [
-				"Con las gafas ves velocidad y estrés. La llave gira y desmonta."
-			]
 			id: "B8430669BC2AE6D0"
 			rewards: [
 				{ id: "97C13361EFE7B126", type: "xp", xp: 20 }
@@ -70,15 +55,11 @@
 				{ id: "4DDF95891D7BB04F", item: { count: 1, id: "create:goggles" }, type: "item" }
 				{ id: "CF009927C921ED9A", item: { count: 1, id: "create:wrench" }, type: "item" }
 			]
-			title: "Ver lo invisible"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["B8430669BC2AE6D0"]
-			description: [
-				"Muele minerales y cultivos."
-			]
 			id: "F4B89F2BA9058F9E"
 			rewards: [
 				{ id: "8AF6A6C9BBD1CE9F", type: "xp", xp: 30 }
@@ -86,15 +67,11 @@
 			tasks: [
 				{ id: "853E3605E41F0044", item: { count: 1, id: "create:millstone" }, type: "item" }
 			]
-			title: "Molino"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["F4B89F2BA9058F9E"]
-			description: [
-				"Láminas de hierro, cobre y oro."
-			]
 			id: "2FACA78117B1370A"
 			rewards: [
 				{ id: "52B580E0862D4C64", type: "xp", xp: 30 }
@@ -103,15 +80,11 @@
 			tasks: [
 				{ id: "A221B891A728D091", item: { count: 1, id: "create:mechanical_press" }, type: "item" }
 			]
-			title: "Prensa mecánica"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2FACA78117B1370A"]
-			description: [
-				"El bloque de construcción de las máquinas de andesita."
-			]
 			id: "8DEE5B9806CC838B"
 			rewards: [
 				{ id: "FEBEF44E9C995242", type: "xp", xp: 30 }
@@ -119,15 +92,11 @@
 			tasks: [
 				{ id: "59279C9DE6F3712F", item: { count: 1, id: "create:andesite_casing" }, type: "item", count: 8L }
 			]
-			title: "Carcasa de andesita"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["8DEE5B9806CC838B"]
-			description: [
-				"Mover objetos sin tocarlos."
-			]
 			id: "9A5D1E527650D39D"
 			rewards: [
 				{ id: "2F11EF7FF4E1BC75", type: "xp", xp: 30 }
@@ -136,15 +105,11 @@
 				{ id: "2F2006FCC8CB04BF", item: { count: 1, id: "create:belt_connector" }, type: "item", count: 4L }
 				{ id: "74CD6D1FA7AF6B8E", item: { count: 1, id: "create:depot" }, type: "item" }
 			]
-			title: "Cintas y depósitos"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["9A5D1E527650D39D"]
-			description: [
-				"Lava, lavado, ahumado y soplado en masa."
-			]
 			id: "CEEA75EC64C3D6D5"
 			rewards: [
 				{ id: "B4E1AF71C5281327", type: "xp", xp: 30 }
@@ -152,15 +117,11 @@
 			tasks: [
 				{ id: "64650D287169E342", item: { count: 1, id: "create:encased_fan" }, type: "item" }
 			]
-			title: "Ventilador"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["CEEA75EC64C3D6D5"]
-			description: [
-				"Cosechadoras y taladros en artefactos móviles."
-			]
 			id: "595B41781DEE5859"
 			rewards: [
 				{ id: "D9B8484CC2409292", type: "xp", xp: 50 }
@@ -169,15 +130,11 @@
 				{ id: "E6CAF3E82505CB3A", item: { count: 1, id: "create:mechanical_harvester" }, type: "item", count: 2L }
 				{ id: "8F246F31420C8EE1", item: { count: 1, id: "create:mechanical_drill" }, type: "item" }
 			]
-			title: "Granja automática"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["595B41781DEE5859"]
-			description: [
-				"Duplica el rendimiento del mineral."
-			]
 			id: "F0B5591F85213967"
 			rewards: [
 				{ id: "BD9C35FA068627FE", type: "xp", xp: 80 }
@@ -186,10 +143,8 @@
 			tasks: [
 				{ id: "8B1EC538493AD173", item: { count: 1, id: "create:crushing_wheel" }, type: "item", count: 2L }
 			]
-			title: "Ruedas trituradoras"
 			x: 1.5d
 			y: 1.5d
 		}
 	]
-	title: "2 · Create: Andesita"
 }

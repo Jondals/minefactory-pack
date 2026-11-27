@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "immersive_aircraft:biplane" }
 	id: "92832834D88CBC40"
-	order_index: 8
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["C1294475C9A14578"]
-			description: [
-				"Immersive Aircraft: casco, hélice y velas."
-			]
 			id: "7E8E5B3D6DE5FED7"
 			rewards: [
 				{ id: "4B46C2A717595A24", type: "xp", xp: 30 }
@@ -22,15 +19,11 @@
 				{ id: "201C4F58E82E171A", item: { count: 1, id: "immersive_aircraft:propeller" }, type: "item" }
 				{ id: "D94EE33C0BF2BB35", item: { count: 1, id: "immersive_aircraft:sail" }, type: "item", count: 2L }
 			]
-			title: "Piezas de avión"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7E8E5B3D6DE5FED7"]
-			description: [
-				"Bloqueado: pide un mecanismo de precisión de Create."
-			]
 			id: "43B89ADEE829E5E9"
 			rewards: [
 				{ id: "1D903AE3F766817F", type: "xp", xp: 80 }
@@ -38,15 +31,11 @@
 			tasks: [
 				{ id: "FC81F0A8E3B03EA1", item: { count: 1, id: "immersive_aircraft:engine" }, type: "item" }
 			]
-			title: "Motor de avión"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43B89ADEE829E5E9"]
-			description: [
-				"Lento y seguro, ideal para empezar."
-			]
 			id: "825D09B8CEBAF1F1"
 			rewards: [
 				{ id: "89C01C43E9F1B789", type: "xp", xp: 80 }
@@ -54,15 +43,11 @@
 			tasks: [
 				{ id: "394F897F5C70CA3F", item: { count: 1, id: "immersive_aircraft:airship" }, type: "item" }
 			]
-			title: "Dirigible"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["825D09B8CEBAF1F1"]
-			description: [
-				"Rápido y divertido."
-			]
 			id: "62FECF61DCD51CC4"
 			rewards: [
 				{ id: "08C24CF9AA86475C", type: "xp", xp: 100 }
@@ -70,15 +55,11 @@
 			tasks: [
 				{ id: "2CB14DC133EE4281", item: { count: 1, id: "immersive_aircraft:biplane" }, type: "item" }
 			]
-			title: "Biplano"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["62FECF61DCD51CC4"]
-			description: [
-				"Despega casi en vertical."
-			]
 			id: "4F03A1292BFD0DAF"
 			rewards: [
 				{ id: "BD6F59F045784F47", type: "xp", xp: 100 }
@@ -86,15 +67,11 @@
 			tasks: [
 				{ id: "C4726BB432ED9F38", item: { count: 1, id: "immersive_aircraft:gyrodyne" }, type: "item" }
 			]
-			title: "Girodino"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F03A1292BFD0DAF"]
-			description: [
-				"Para moverte entre edificios."
-			]
 			id: "03CDF63F4214D5AB"
 			rewards: [
 				{ id: "C8AA53ADEED37E06", type: "xp", xp: 100 }
@@ -102,15 +79,11 @@
 			tasks: [
 				{ id: "5643661B68F8C05B", item: { count: 1, id: "immersive_aircraft:quadrocopter" }, type: "item" }
 			]
-			title: "Cuadricóptero"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["03CDF63F4214D5AB"]
-			description: [
-				"Lleva cofres."
-			]
 			id: "8680633A32C0ED5E"
 			rewards: [
 				{ id: "6AB5BD35D28F3962", type: "xp", xp: 150 }
@@ -118,15 +91,11 @@
 			tasks: [
 				{ id: "D5ACF92761FB6AA4", item: { count: 1, id: "immersive_aircraft:cargo_airship" }, type: "item" }
 			]
-			title: "Dirigible de carga"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["8680633A32C0ED5E"]
-			description: [
-				"El gran dirigible armado."
-			]
 			id: "BF646CCE033F7A3C"
 			rewards: [
 				{ id: "59C1C24C7B836E62", type: "xp", xp: 250 }
@@ -134,15 +103,11 @@
 			tasks: [
 				{ id: "909107F523540ABC", item: { count: 1, id: "immersive_aircraft:warship" }, type: "item" }
 			]
-			title: "Buque de guerra"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["BF646CCE033F7A3C"]
-			description: [
-				"Más velocidad y control."
-			]
 			id: "922BC49CDA94061F"
 			rewards: [
 				{ id: "66B8BE1D7DB23462", type: "xp", xp: 100 }
@@ -152,15 +117,11 @@
 				{ id: "8E29330DB2634F1A", item: { count: 1, id: "immersive_aircraft:improved_landing_gear" }, type: "item" }
 				{ id: "C1F0C210294889EB", item: { count: 1, id: "immersive_aircraft:gyroscope" }, type: "item" }
 			]
-			title: "Mejoras"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["922BC49CDA94061F"]
-			description: [
-				"El biplano escarlata."
-			]
 			id: "2C59F3A083339978"
 			rewards: [
 				{ id: "696BC587074AD527", type: "xp", xp: 150 }
@@ -168,10 +129,45 @@
 			tasks: [
 				{ id: "2710AB3FA027663D", item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }, type: "item" }
 			]
-			title: "Man of Many Planes"
 			x: 3.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["43B89ADEE829E5E9"]
+			id: "7528CFD5A48DF6CD"
+			rewards: [
+				{ id: "BBDBD9FCAE52C017", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ id: "3103784CEFF5C8B9", item: { count: 1, id: "more_engines:advanced_engine" }, type: "item" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7528CFD5A48DF6CD"]
+			id: "0CDBCF1EC9CA1F0D"
+			rewards: [
+				{ id: "DE7C3F1593E37C95", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ id: "45DBC108B7CFEAC5", item: { count: 1, id: "more_engines:turbo" }, type: "item" }
+				{ id: "25E2FEF6066E0B6B", item: { count: 1, id: "more_engines:supercharger" }, type: "item" }
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7528CFD5A48DF6CD"]
+			id: "FD3DC27BC4ABE597"
+			rewards: [
+				{ id: "7629E0558BF36038", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "1F0E94D5F04A0508", item: { count: 1, id: "more_engines:sport_biplane" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.0d
+		}
 	]
-	title: "Aviación"
 }

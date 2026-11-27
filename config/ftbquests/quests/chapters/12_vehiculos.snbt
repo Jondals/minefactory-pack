@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "smallships:oak_cog" }
 	id: "1A6106F66F57C683"
-	order_index: 10
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: []
-			description: [
-				"Small Ships: barcos de madera de verdad."
-			]
 			id: "5DD50349E3DFBBE4"
 			rewards: [
 				{ id: "43E319DCA18DC0BC", type: "xp", xp: 50 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "D338576F3380E9F6", item: { count: 1, id: "smallships:oak_cog" }, type: "item" }
 			]
-			title: "Coca"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5DD50349E3DFBBE4"]
-			description: [
-
-			]
 			id: "043D45B52BF97E6E"
 			rewards: [
 				{ id: "0D233497FCB7D8A4", type: "xp", xp: 80 }
@@ -36,15 +29,11 @@
 			tasks: [
 				{ id: "52E9A10D6D245014", item: { count: 1, id: "smallships:oak_brigg" }, type: "item" }
 			]
-			title: "Bergantín"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["043D45B52BF97E6E"]
-			description: [
-
-			]
 			id: "E6B4EBAAE05BA887"
 			rewards: [
 				{ id: "22CED6B7507E5C14", type: "xp", xp: 80 }
@@ -52,15 +41,11 @@
 			tasks: [
 				{ id: "8F33A0AA70F5B76C", item: { count: 1, id: "smallships:oak_galley" }, type: "item" }
 			]
-			title: "Galera"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["E6B4EBAAE05BA887"]
-			description: [
-
-			]
 			id: "E7B99AC2F2BA7E13"
 			rewards: [
 				{ id: "0A1BC5DB932559E9", type: "xp", xp: 80 }
@@ -68,15 +53,11 @@
 			tasks: [
 				{ id: "732F4BDE78DBCC1E", item: { count: 1, id: "smallships:oak_drakkar" }, type: "item" }
 			]
-			title: "Drakkar"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["E7B99AC2F2BA7E13"]
-			description: [
-
-			]
 			id: "3A494EF30942BDD5"
 			rewards: [
 				{ id: "501EE0E9D5EF2EC3", type: "xp", xp: 80 }
@@ -85,15 +66,11 @@
 				{ id: "2242FE112929089D", item: { count: 1, id: "smallships:cannon" }, type: "item", count: 2L }
 				{ id: "E3A1259285D25D44", item: { count: 1, id: "smallships:cannon_ball" }, type: "item", count: 16L }
 			]
-			title: "Cañones navales"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A494EF30942BDD5"]
-			description: [
-				"Immersive Vehicles: monta un coche en el banco de vehículos. Marca la misión cuando conduzcas uno."
-			]
 			id: "14C39387EC6B4352"
 			rewards: [
 				{ id: "0416C1F5DCB3265B", type: "xp", xp: 150 }
@@ -101,15 +78,11 @@
 			tasks: [
 				{ id: "26644C493060CE21", type: "checkmark" }
 			]
-			title: "Coche"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14C39387EC6B4352"]
-			description: [
-				"Immersive Vehicles también tiene aviones y helicópteros."
-			]
 			id: "66FF0771D2989D50"
 			rewards: [
 				{ id: "6236916F3234B3D1", type: "xp", xp: 200 }
@@ -117,10 +90,8 @@
 			tasks: [
 				{ id: "E03EEF346BA22648", type: "checkmark" }
 			]
-			title: "Avioneta"
 			x: 7.5d
 			y: 1.5d
 		}
 	]
-	title: "Barcos y coches"
 }

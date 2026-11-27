@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "22_granja"
+	group: "7928779FF95E2C29"
+	icon: { count: 1, id: "vinery:fermentation_barrel" }
+	id: "751914223925B696"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "23AF7A4EECF28A39"
+			rewards: [
+				{ id: "57DCF85539CD5076", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "B6C76C39427129FB", item: { count: 1, id: "sereneseasons:calendar" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23AF7A4EECF28A39"]
+			id: "5C0B4A44F13A2748"
+			rewards: [
+				{ id: "B10CA62B67E1A785", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "9264DE08A5AAE507", item: { count: 1, id: "sliceanddice:slicer" }, type: "item" }
+				{ id: "931BD894CEBC72B8", item: { count: 1, id: "sliceanddice:sprinkler" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23AF7A4EECF28A39"]
+			id: "5687EEAD2EEC860D"
+			rewards: [
+				{ id: "BF4B992F17437DE1", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "42BE4E2010753540", item: { count: 1, id: "vinery:apple_press" }, type: "item" }
+				{ id: "E9E6C916F5C38C89", item: { count: 1, id: "vinery:fermentation_barrel" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23AF7A4EECF28A39"]
+			id: "E963E912DBE743F6"
+			rewards: [
+				{ id: "0B81F0E3B98799EE", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "BBD58A19E81C93CF", item: { count: 1, id: "herbalbrews:tea_kettle" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}

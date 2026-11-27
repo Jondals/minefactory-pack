@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00_guia"
+	group: "7928779FF95E2C29"
+	icon: { count: 1, id: "minecraft:book" }
+	id: "C451ED305868419C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "8757964464CC842A"
+			rewards: [
+				{ id: "46AF8FECCEB3120A", type: "xp", xp: 10 }
+			]
+			tasks: [
+				{ id: "DC1D2F51B128D341", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8757964464CC842A"]
+			id: "F5B24E19C908375A"
+			rewards: [
+				{ id: "9BEA82DFD9CC2086", type: "xp", xp: 10 }
+			]
+			tasks: [
+				{ id: "A4DB8A34D1FF0A53", type: "checkmark" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8757964464CC842A"]
+			id: "318970E38BB89BD5"
+			rewards: [
+				{ id: "C62D0A113DA2D5DF", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "6AC049B1AF32D4AD", type: "checkmark" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

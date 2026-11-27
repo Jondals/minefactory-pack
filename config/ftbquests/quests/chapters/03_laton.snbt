@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "create:brass_ingot" }
 	id: "E75C9B4C9411B95E"
-	order_index: 2
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["F0B5591F85213967"]
-			description: [
-				"Busca zinc bajo tierra o con el excavador de vetas."
-			]
 			id: "A4CB901E2445C8A2"
 			rewards: [
 				{ id: "9AA6164B75AC6FA3", type: "xp", xp: 20 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "3F148FC6270EDAF1", item: { count: 1, id: "create:zinc_ingot" }, type: "item", count: 8L }
 			]
-			title: "Zinc"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["A4CB901E2445C8A2"]
-			description: [
-				"Necesario para alear el latón."
-			]
 			id: "54D4420BA0A9FF04"
 			rewards: [
 				{ id: "4A7C7A075955841F", type: "xp", xp: 30 }
@@ -37,15 +30,11 @@
 				{ id: "D476E9FA70C68A81", item: { count: 1, id: "create:mechanical_mixer" }, type: "item" }
 				{ id: "5230F2EE8CA366AA", item: { count: 1, id: "create:basin" }, type: "item" }
 			]
-			title: "Mezclador y cuenco"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["54D4420BA0A9FF04"]
-			description: [
-				"Calor para el mezclador. Atrapa un blaze en el Nether o en un spawner."
-			]
 			id: "345542E62A1F8248"
 			rewards: [
 				{ id: "AC3F10C4637F3DCE", type: "xp", xp: 50 }
@@ -53,15 +42,11 @@
 			tasks: [
 				{ id: "7140E250A787DCEF", item: { count: 1, id: "create:blaze_burner" }, type: "item" }
 			]
-			title: "Quemador de blaze"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["345542E62A1F8248"]
-			description: [
-				"Cobre + zinc calentados."
-			]
 			id: "079F447EF5399AF3"
 			rewards: [
 				{ id: "DC2A9C07CFED0367", type: "xp", xp: 50 }
@@ -69,15 +54,11 @@
 			tasks: [
 				{ id: "4AA8BC5190824545", item: { count: 1, id: "create:brass_ingot" }, type: "item", count: 16L }
 			]
-			title: "¡Latón!"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["079F447EF5399AF3"]
-			description: [
-				"Máquinas avanzadas."
-			]
 			id: "C89FBAAF902F1D41"
 			rewards: [
 				{ id: "FDFC4C3792FEC9AE", type: "xp", xp: 30 }
@@ -86,15 +67,11 @@
 				{ id: "6AE67A48CB3F8CA6", item: { count: 1, id: "create:brass_casing" }, type: "item", count: 8L }
 				{ id: "F71096721125F3E4", item: { count: 1, id: "create:electron_tube" }, type: "item", count: 4L }
 			]
-			title: "Carcasa de latón"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C89FBAAF902F1D41"]
-			description: [
-				"Montaje secuenciado. 🔒 Desbloquea: el motor de los aviones de Immersive Aircraft y la mesa de la NASA (junto a un trofeo del Lich)."
-			]
 			id: "C1294475C9A14578"
 			rewards: [
 				{ id: "490E49EA13C178BC", type: "xp", xp: 100 }
@@ -102,15 +79,11 @@
 			tasks: [
 				{ id: "D60F6ABAF3B508B6", item: { count: 1, id: "create:precision_mechanism" }, type: "item", count: 4L }
 			]
-			title: "Mecanismo de precisión"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C1294475C9A14578"]
-			description: [
-				"Automatiza cualquier acción con la mano."
-			]
 			id: "3F6C339EEAD8A199"
 			rewards: [
 				{ id: "C4AFA834F113B828", type: "xp", xp: 50 }
@@ -119,15 +92,11 @@
 				{ id: "D17A68A4601C527F", item: { count: 1, id: "create:deployer" }, type: "item" }
 				{ id: "8FD49CE2F052BA67", item: { count: 1, id: "create:mechanical_arm" }, type: "item" }
 			]
-			title: "Brazos mecánicos"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3F6C339EEAD8A199"]
-			description: [
-				"Recetas grandes sin tocar la mesa."
-			]
 			id: "8A5623A535D4FA4D"
 			rewards: [
 				{ id: "EB605B23F977583E", type: "xp", xp: 50 }
@@ -135,15 +104,11 @@
 			tasks: [
 				{ id: "CCFCAEED86EC0F6D", item: { count: 1, id: "create:mechanical_crafter" }, type: "item", count: 9L }
 			]
-			title: "Fabricación automática"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["8A5623A535D4FA4D"]
-			description: [
-				"Mucha más energía que el agua."
-			]
 			id: "4D593355420100E7"
 			rewards: [
 				{ id: "41F49EC8FA204CAB", type: "xp", xp: 80 }
@@ -152,15 +117,11 @@
 				{ id: "27B724D5C24AD89E", item: { count: 1, id: "create:steam_engine" }, type: "item", count: 2L }
 				{ id: "F6D492FFC02979E7", item: { count: 1, id: "create:fluid_tank" }, type: "item", count: 4L }
 			]
-			title: "Motor de vapor"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4D593355420100E7"]
-			description: [
-				"Guarda miles de objetos."
-			]
 			id: "1603E98CBFE81D90"
 			rewards: [
 				{ id: "6CB9BEA2E14DB75A", type: "xp", xp: 50 }
@@ -169,10 +130,8 @@
 			tasks: [
 				{ id: "17FBB2FEC3C3E7FB", item: { count: 1, id: "create:item_vault" }, type: "item", count: 4L }
 			]
-			title: "Almacén"
 			x: 3.0d
 			y: 1.5d
 		}
 	]
-	title: "3 · Create: Latón"
 }

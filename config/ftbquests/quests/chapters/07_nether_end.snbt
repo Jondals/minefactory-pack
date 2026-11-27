@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "minecraft:nether_star" }
 	id: "EEFF0FC9177AB303"
-	order_index: 6
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["079F447EF5399AF3"]
-			description: [
-				"Incendium y YUNG's lo hacen mucho más peligroso."
-			]
 			id: "29240E334E1428ED"
 			rewards: [
 				{ id: "2F5AE6E4ADF51153", type: "xp", xp: 30 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ dimension: "minecraft:the_nether", id: "4B230F7AE576481E", type: "dimension" }
 			]
-			title: "El Nether"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["29240E334E1428ED"]
-			description: [
-				"Prepárate bien."
-			]
 			id: "23844A3DF4751934"
 			rewards: [
 				{ id: "4D2BE31972F0E94E", type: "xp", xp: 300 }
@@ -36,15 +29,11 @@
 			tasks: [
 				{ entity: "minecraft:wither", id: "39493017622E266A", type: "kill", value: 1L }
 			]
-			title: "El Wither"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23844A3DF4751934"]
-			description: [
-				"End Remastered: el portal pide ojos especiales escondidos por el mundo. Usa la Brújula del Explorador."
-			]
 			id: "C8955BB428F1A43A"
 			rewards: [
 				{ id: "4DA9DAA8D91F29F4", type: "xp", xp: 150 }
@@ -54,15 +43,11 @@
 				{ id: "5E2998CBF7F28255", item: { count: 1, id: "endrem:nether_eye" }, type: "item" }
 				{ id: "C6AEFA3D329FCFF9", item: { count: 1, id: "endrem:wither_eye" }, type: "item" }
 			]
-			title: "Ojos del End"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C8955BB428F1A43A"]
-			description: [
-
-			]
 			id: "BCFF77969E297C0F"
 			rewards: [
 				{ id: "187419802EDA89D2", type: "xp", xp: 100 }
@@ -70,15 +55,11 @@
 			tasks: [
 				{ dimension: "minecraft:the_end", id: "1CD7C066662811F4", type: "dimension" }
 			]
-			title: "El End"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["BCFF77969E297C0F"]
-			description: [
-
-			]
 			id: "A5B821EED27F3030"
 			rewards: [
 				{ id: "37F766E7F6F69D10", type: "xp", xp: 500 }
@@ -86,15 +67,11 @@
 			tasks: [
 				{ entity: "minecraft:ender_dragon", id: "0F2C8E4B2AA59C4D", type: "kill", value: 1L }
 			]
-			title: "El Dragón"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["A5B821EED27F3030"]
-			description: [
-				"Busca un barco del End."
-			]
 			id: "CBB31DDAA8244953"
 			rewards: [
 				{ id: "2BBC0E0DD2D05F34", type: "xp", xp: 150 }
@@ -102,10 +79,8 @@
 			tasks: [
 				{ id: "A483932CF2C20C48", item: { count: 1, id: "minecraft:elytra" }, type: "item" }
 			]
-			title: "Élitros"
 			x: 7.5d
 			y: 0.0d
 		}
 	]
-	title: "7 · Nether y End"
 }

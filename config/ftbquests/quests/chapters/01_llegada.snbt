@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "minecraft:crafting_table" }
 	id: "A53478F7F541DC0A"
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: []
-			description: [
-				"Bienvenidos a MineFactory. Este libro os guía de una cabaña a otros planetas."
-			]
 			id: "E0C5FEF9A59E7C66"
 			rewards: [
 				{ id: "E1FF65F7E7BFDF7D", type: "xp", xp: 10 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "384FD10E2317F3EC", item: { count: 1, id: "minecraft:crafting_table" }, type: "item" }
 			]
-			title: "Lo primero"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["E0C5FEF9A59E7C66"]
-			description: [
-				"Cualquier cama sirve: haz una roja para marcar la misión."
-			]
 			id: "9CAD6244D45329E9"
 			rewards: [
 				{ id: "86AF9DE3B60FD7C7", type: "xp", xp: 10 }
@@ -36,15 +29,11 @@
 			tasks: [
 				{ id: "E7790BD9A8368B2F", item: { count: 1, id: "minecraft:red_bed" }, type: "item" }
 			]
-			title: "Un sitio donde dormir"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["9CAD6244D45329E9"]
-			description: [
-				"Más espacio para explorar. Se mejora con hierro, oro y diamante."
-			]
 			id: "700CCDB5BA76105B"
 			rewards: [
 				{ id: "BB5F1A3B8279E4D1", type: "xp", xp: 20 }
@@ -52,15 +41,11 @@
 			tasks: [
 				{ id: "58C5F1AC92799038", item: { count: 1, id: "sophisticatedbackpacks:backpack" }, type: "item" }
 			]
-			title: "Mochila"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["700CCDB5BA76105B"]
-			description: [
-				"Farmer's Delight: el cuchillo y la tabla abren casi toda la cocina del pack."
-			]
 			id: "0AA68844882E1716"
 			rewards: [
 				{ id: "149629EE5A19D81B", type: "xp", xp: 20 }
@@ -69,15 +54,11 @@
 				{ id: "5B98D642FFA3F058", item: { count: 1, id: "farmersdelight:flint_knife" }, type: "item" }
 				{ id: "6FD8EAC5AC6A0F80", item: { count: 1, id: "farmersdelight:cutting_board" }, type: "item" }
 			]
-			title: "Cocina básica"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0AA68844882E1716"]
-			description: [
-				"Guisos que llenan mucho más que la comida normal."
-			]
 			id: "95D4BBF4775CEA23"
 			rewards: [
 				{ id: "FD3ABCFD477D8D9C", type: "xp", xp: 30 }
@@ -86,15 +67,11 @@
 			tasks: [
 				{ id: "E9A84D9D8CFC838D", item: { count: 1, id: "farmersdelight:cooking_pot" }, type: "item" }
 			]
-			title: "La olla"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["95D4BBF4775CEA23"]
-			description: [
-				"Pon una waystone en la base y viaja entre todas las que actives."
-			]
 			id: "3D10B968C8643943"
 			rewards: [
 				{ id: "FAE8BA21A6F921F9", type: "xp", xp: 50 }
@@ -103,10 +80,8 @@
 			tasks: [
 				{ id: "D0C5A006CBB71513", item: { count: 1, id: "waystones:waystone" }, type: "item" }
 			]
-			title: "Casa con teletransporte"
 			x: 7.5d
 			y: 0.0d
 		}
 	]
-	title: "1 · Llegada"
 }

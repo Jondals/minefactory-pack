@@ -114,79 +114,111 @@ hash = "afe3c8949ae503349c5856bc97faa57fe2700f5e2b3d51b1a018fd0462c7f8e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "f640b6ab6cf1c332f6e1a63d0134760dfb2b35601051f576d37168bb68b33bbc"
+hash = "c18894e6779309095c8f67720821297f8eeabef57ebe7355948b0399a16780e1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/00_guia.snbt"
+hash = "fea03d227ddc5957442635a37df3dd6272ef45a4f87b8a22c89ec8938df1a4b2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_llegada.snbt"
-hash = "48e67db55b4561c4d11e38ca76b811fffdb015fcd68615c8f6109d0fca3209b8"
+hash = "7ccf6f5b25dbef5f1b7ea393ac74771f2e8177bb6bc7a42d05d24e62b83b112e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_andesita.snbt"
-hash = "4c94c44991c95c40e3ef07a1c8ecbdc298d544af39823f3f3d2b29067e7f192e"
+hash = "4e384609e8b09c6fbb721ca1984e1d61b073329a8cc392960203edc74e31e4fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_laton.snbt"
-hash = "a51602df7daf8cbfc7582b9962d18f3f32b553cb3504fa45260ea433664a57e9"
+hash = "34110920f885a275bba1a9549e58f29b63fab16f8d959baf29c7738f97b7ea6c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_logistica.snbt"
-hash = "6a0f3927850d8c3289ec814f3d221b2320591675aafff7acac2d99f67aecab29"
+hash = "70ef589bd9f8e0721611d9d82ba7ac1b3dd38df771175e6362c1842fbbf7e67b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_aventura.snbt"
-hash = "bf5b7a07e77ed0f477d55c2c94b9799cb7011ef8135d4aac8ab9931f9a94c5a5"
+hash = "9cf507d9a64a432d08dd59565ee39bca3cea5e44967c56974cb9ac0a6ed1451a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_energia.snbt"
-hash = "75124949ef39cdccc1f55a52213e9c49ccdc570ff0b63871d7516a68f3b8bc39"
+hash = "d81cc3700581029ac1a86182f5160468647e99e0afbddf59e95f7374fc38967a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_nether_end.snbt"
-hash = "cdc513053ad2a8e7211bb86e0f3ccff4d09f35ba961c4fd35e169f36ce1b8433"
+hash = "f8fd13b2fefee73565961f9eb9b8e1edc6e5a52021c3f4c1d723d6a25e51d61d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_espacio.snbt"
-hash = "5484608668672472adbeb2cbc0aaa2662cda9d93f2e6495f9741bc2659f581f0"
+hash = "61ca8556b0353f367adec25097c432c3b82f61a37975aa6bae8165e135a2be74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_exploracion.snbt"
-hash = "2b60ec7726b29e8b544a7f1a738f8a5a7b230d6f54316448b1cd9832a292e9bc"
+hash = "c6d4ef198982f47ecbb89d1b74653d85d6a06f1b9e3ed49169d275df6fbac3c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_aviacion.snbt"
-hash = "c35be78e20fb3a610d7624b2077d043f60f8c4030bc61245ad5006c957b4205a"
+hash = "2a2c1acedb0164d6513402569134122f010d3ecca53f38ab920010055cad44fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_aeronautica.snbt"
-hash = "dc3be02ebd7d8b27d2a9a66684d1865a07a34050c95e6f2cfbdeebe4f767c8f3"
+hash = "20c7eeeb04460555b83745daeb620b2032756672ff338b8569509d816ed57f92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_vehiculos.snbt"
-hash = "f6b71deda347975731dfc00294562944ac61280c8d0c1225d536aeeeac840b0c"
+hash = "19cb92da0e077b3d581d10d604ce91e5923f74ab637b96934b906255d6949936"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_artilleria.snbt"
-hash = "5b6d9af38199fb39087c38a48fff62533095989428c650783d64abcd7d81afd5"
+hash = "0013efc580f1fa88fb630dca894bf4f33fd0e19df7965bc6eb5726c014964078"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/14_mineria.snbt"
-hash = "50b5892af4b469a9be2ad4d149d36e5bbb24a8b8594295117024615387c93bcc"
+hash = "2edd9e3c8811c3c0f1dcf7dffe2c85580b3237e801e484489fd3e5445eee9bc9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15_cocina.snbt"
-hash = "d4532c772eca2fa30be77d8edb1145baaffba3cc59d65a66864ca39de9a02afb"
+hash = "3e177fa90ef9315f5f84f044b8357d104e4a26289b9059fc1d67462a7a07370c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/16_mascotas.snbt"
-hash = "4734988d24189afe7ac91fec0726e2aef4370f8427bd84107d147c1d36f87b6f"
+hash = "1d017a07871ddf3ae7d28d85fef18bbf9ddc7cec3ca5d1106c4ce0955e2d11d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/17_fotografia.snbt"
-hash = "2d93ec2e0bf2923e0cb6e30f92faf2b1935f00a15b0d50400a9e2ef9d89181c2"
+hash = "02eec0af5024c244fd776e24cded6e55bb7f85cbaa9e96237b4c7460add25ad2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/18_almacenamiento.snbt"
+hash = "31fb443dccde029637a3d0756bdc893f7bb127335780398cd7359ca4ceca9f84"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/19_tfmg.snbt"
+hash = "666900a04f70d1aabbab013b5e7d67a04bd60af7f3c088afa53debbc2122ed29"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/20_encantamientos.snbt"
+hash = "fc8a70fb4d9ca77753ab71144d6671a1eef7d73819e7a677f89043fee3168770"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/21_utilidades.snbt"
+hash = "d0de90110ed45b67ea27351a16760747f9cd32f544518b98c3aac322d91539fd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/22_granja.snbt"
+hash = "0dd9a74dbbb6e2ea430ce164f69d375859a42b8e2775276a98c1ffdd1d41dc86"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/23_musica.snbt"
+hash = "191f89055db36f1bf257114383f6b6bcb646f2990141afada3981bfa55410fda"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "aadaa2781c6950417889e04041c284df1d9648800d113bc0f3c9dcfabdd05f76"
+hash = "e7e71b5d8028851cec12e6b5182bd98a2091b4c55a13f07497c99306c10892be"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "47ef7a6b67d6d5885ff76f29ebb39f16dfebf188a8e56723f7f8106ee6a9a3ca"
 
 [[files]]
 file = "config/iris.properties"
@@ -1142,7 +1174,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0a933e834f0f816c326d0abeafaf1aa60310e2a5bc89bc67826cd1ffffce19c9"
+hash = "90c779c96cbee752edc819258caaa6912d8decaff4befc66a0ec170b24a3fdd1"
 metafile = true
 
 [[files]]

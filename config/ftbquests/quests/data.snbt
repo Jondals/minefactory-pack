@@ -14,6 +14,5 @@
 	lock_message: ""
 	pause_game: false
 	progression_mode: "linear"
-	title: "MineFactory: de la fábrica a las estrellas"
 	version: 13
 }

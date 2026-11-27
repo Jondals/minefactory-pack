@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "createbigcannons:cannon_mount" }
 	id: "10362AC28DF04717"
-	order_index: 11
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["079F447EF5399AF3"]
-			description: [
-				"Create Big Cannons."
-			]
 			id: "5BA917B587D16313"
 			rewards: [
 				{ id: "7DCE2FDE664F8CF4", type: "xp", xp: 30 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ id: "50750709C20A0661", item: { count: 1, id: "createbigcannons:cast_iron_ingot" }, type: "item", count: 16L }
 			]
-			title: "Hierro fundido"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5BA917B587D16313"]
-			description: [
-
-			]
 			id: "08890B44C86F5B9B"
 			rewards: [
 				{ id: "B63F3982DD10DFB1", type: "xp", xp: 50 }
@@ -36,15 +29,11 @@
 			tasks: [
 				{ id: "661936B7F25A677A", item: { count: 1, id: "createbigcannons:cannon_mount" }, type: "item" }
 			]
-			title: "Montura"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["08890B44C86F5B9B"]
-			description: [
-
-			]
 			id: "B0C1B81AD53A5321"
 			rewards: [
 				{ id: "B1013F2A00CA72D0", type: "xp", xp: 100 }
@@ -53,15 +42,11 @@
 				{ id: "4C8295E794FD54A8", item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }, type: "item", count: 2L }
 				{ id: "03C8FCB5F23B1C80", item: { count: 1, id: "createbigcannons:cast_iron_cannon_chamber" }, type: "item" }
 			]
-			title: "Cañón"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["B0C1B81AD53A5321"]
-			description: [
-
-			]
 			id: "175791CD7ECB4C8C"
 			rewards: [
 				{ id: "C893778B2439D7B9", type: "xp", xp: 50 }
@@ -70,15 +55,11 @@
 				{ id: "AD7D11B9030BA081", item: { count: 1, id: "createbigcannons:solid_shot" }, type: "item", count: 8L }
 				{ id: "48A1B436448C2610", item: { count: 1, id: "createbigcannons:powder_charge" }, type: "item", count: 8L }
 			]
-			title: "Munición"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["175791CD7ECB4C8C"]
-			description: [
-
-			]
 			id: "0B7829DBC1E430D9"
 			rewards: [
 				{ id: "1332F6CECC3DFBAC", type: "xp", xp: 100 }
@@ -87,10 +68,8 @@
 				{ id: "EFE8C95AE35405E7", item: { count: 1, id: "createbigcannons:he_shell" }, type: "item", count: 4L }
 				{ id: "9FAAD5691E321A13", item: { count: 1, id: "createbigcannons:impact_fuze" }, type: "item", count: 4L }
 			]
-			title: "Explosivos"
 			x: 6.0d
 			y: 0.0d
 		}
 	]
-	title: "Artillería"
 }

@@ -5,14 +5,11 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "farmersdelight:stove" }
 	id: "4E845D179402128A"
-	order_index: 14
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: []
-			description: [
-
-			]
 			id: "054D614D9C883566"
 			rewards: [
 				{ id: "35F316844E583A6D", type: "xp", xp: 30 }
@@ -21,15 +18,11 @@
 				{ id: "A5E4A20A95EEB999", item: { count: 1, id: "farmersdelight:stove" }, type: "item" }
 				{ id: "9D1B6627D32F755F", item: { count: 1, id: "farmersdelight:skillet" }, type: "item" }
 			]
-			title: "Fogón y sartén"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["054D614D9C883566"]
-			description: [
-				"Un banquete para compartir."
-			]
 			id: "DC80199089A41DB1"
 			rewards: [
 				{ id: "41110E2E36C17AD2", type: "xp", xp: 50 }
@@ -37,15 +30,11 @@
 			tasks: [
 				{ id: "D32E038423B2C420", item: { count: 1, id: "farmersdelight:shepherds_pie_block" }, type: "item" }
 			]
-			title: "Pastel de pastor"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["DC80199089A41DB1"]
-			description: [
-
-			]
 			id: "8E2C4EA9B728D564"
 			rewards: [
 				{ id: "80B7AC83A8D21370", type: "xp", xp: 50 }
@@ -54,15 +43,11 @@
 				{ id: "67A75C5C1A1675E2", item: { count: 1, id: "create:bar_of_chocolate" }, type: "item", count: 8L }
 				{ id: "00C96041C87780CD", item: { count: 1, id: "create:builders_tea" }, type: "item" }
 			]
-			title: "Chocolate de Create"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["8E2C4EA9B728D564"]
-			description: [
-				"Create: Factory."
-			]
 			id: "AFE316F65D55B273"
 			rewards: [
 				{ id: "0A79B5B9780CF466", type: "xp", xp: 50 }
@@ -70,10 +55,8 @@
 			tasks: [
 				{ id: "89E3A3F1B78E6E19", item: { count: 1, id: "create_factory:honey_waffle" }, type: "item", count: 4L }
 			]
-			title: "Gofres"
 			x: 4.5d
 			y: 0.0d
 		}
 	]
-	title: "Cocina"
 }

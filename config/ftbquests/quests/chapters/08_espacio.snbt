@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "ad_astra:tier_1_rocket" }
 	id: "29203031B5AB9A42"
-	order_index: 7
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5A399B4EF840495A", "C1294475C9A14578"]
-			description: [
-				"Ad Astra: el acero sale del alto horno y el compresor hace placas."
-			]
 			id: "723F5A176DC1AFBF"
 			rewards: [
 				{ id: "7091C0ABC3AE0A8A", type: "xp", xp: 50 }
@@ -21,15 +18,11 @@
 				{ id: "29F9CA36E2829F59", item: { count: 1, id: "ad_astra:steel_ingot" }, type: "item", count: 16L }
 				{ id: "615C914919DB514C", item: { count: 1, id: "ad_astra:compressor" }, type: "item" }
 			]
-			title: "Acero"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["723F5A176DC1AFBF"]
-			description: [
-				"Bloqueada: pide 2 mecanismos de precisión y un trofeo del Lich."
-			]
 			id: "727029D9FD2D2210"
 			rewards: [
 				{ id: "A8DF86740ED90ED1", type: "xp", xp: 150 }
@@ -37,15 +30,11 @@
 			tasks: [
 				{ id: "58AE55FFD1958E1C", item: { count: 1, id: "ad_astra:nasa_workbench" }, type: "item" }
 			]
-			title: "Mesa de la NASA"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["727029D9FD2D2210"]
-			description: [
-				"Sin él, en el espacio no se respira."
-			]
 			id: "33EA30888962019F"
 			rewards: [
 				{ id: "01F458FA9063893C", type: "xp", xp: 100 }
@@ -56,15 +45,11 @@
 				{ id: "99C848B700597B8E", item: { count: 1, id: "ad_astra:space_pants" }, type: "item" }
 				{ id: "D721C868540EC6AF", item: { count: 1, id: "ad_astra:space_boots" }, type: "item" }
 			]
-			title: "Traje espacial"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33EA30888962019F"]
-			description: [
-				"Llena el traje y el cohete."
-			]
 			id: "5FF8E48AD424E2B5"
 			rewards: [
 				{ id: "9A1E60796C3A53DD", type: "xp", xp: 80 }
@@ -73,15 +58,11 @@
 				{ id: "E89BB88409D48468", item: { count: 1, id: "ad_astra:oxygen_loader" }, type: "item" }
 				{ id: "8413EA35DCA0E76C", item: { count: 1, id: "ad_astra:fuel_refinery" }, type: "item" }
 			]
-			title: "Oxígeno y combustible"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FF8E48AD424E2B5"]
-			description: [
-
-			]
 			id: "BEF85181C4CF1072"
 			rewards: [
 				{ id: "1F6A7011230A8DD7", type: "xp", xp: 30 }
@@ -89,15 +70,11 @@
 			tasks: [
 				{ id: "1751127C02199893", item: { count: 1, id: "ad_astra:launch_pad" }, type: "item" }
 			]
-			title: "Plataforma de lanzamiento"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["BEF85181C4CF1072"]
-			description: [
-
-			]
 			id: "A083FEFBC3C1E901"
 			rewards: [
 				{ id: "142F764261255F2B", type: "xp", xp: 200 }
@@ -105,15 +82,11 @@
 			tasks: [
 				{ id: "5121990709F728AB", item: { count: 1, id: "ad_astra:tier_1_rocket" }, type: "item" }
 			]
-			title: "Cohete T1"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["A083FEFBC3C1E901"]
-			description: [
-				"Un pequeño paso…"
-			]
 			id: "1A0606CD9FD77224"
 			rewards: [
 				{ id: "240AB175515E2CD6", type: "xp", xp: 300 }
@@ -122,15 +95,11 @@
 			tasks: [
 				{ dimension: "ad_astra:moon", id: "0417CEABCDBE7127", type: "dimension" }
 			]
-			title: "¡La Luna!"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1A0606CD9FD77224"]
-			description: [
-				"Mineral lunar para el cohete T2."
-			]
 			id: "CFAE000B0D9CFB7F"
 			rewards: [
 				{ id: "A54382A8ACC4A237", type: "xp", xp: 100 }
@@ -138,15 +107,11 @@
 			tasks: [
 				{ id: "B31D80667DB33579", item: { count: 1, id: "ad_astra:desh_ingot" }, type: "item", count: 16L }
 			]
-			title: "Desh"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["CFAE000B0D9CFB7F"]
-			description: [
-
-			]
 			id: "8AFDE16ADD4CE3CD"
 			rewards: [
 				{ id: "BD4532A4453A1505", type: "xp", xp: 300 }
@@ -154,15 +119,11 @@
 			tasks: [
 				{ id: "F8A349E98C70BA10", item: { count: 1, id: "ad_astra:tier_2_rocket" }, type: "item" }
 			]
-			title: "Cohete T2"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["8AFDE16ADD4CE3CD"]
-			description: [
-
-			]
 			id: "ABCC064663FC8B33"
 			rewards: [
 				{ id: "D29C899DDDE3D356", type: "xp", xp: 300 }
@@ -170,15 +131,11 @@
 			tasks: [
 				{ dimension: "ad_astra:mars", id: "1E79ABC0435E65E1", type: "dimension" }
 			]
-			title: "Marte"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["ABCC064663FC8B33"]
-			description: [
-
-			]
 			id: "853FC83D39C98403"
 			rewards: [
 				{ id: "EBBE955637BFC171", type: "xp", xp: 150 }
@@ -186,15 +143,11 @@
 			tasks: [
 				{ id: "8559B47C0E50ECD3", item: { count: 1, id: "ad_astra:ostrum_ingot" }, type: "item", count: 16L }
 			]
-			title: "Ostrum"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["853FC83D39C98403"]
-			description: [
-
-			]
 			id: "1C062C22816CA5F3"
 			rewards: [
 				{ id: "EC6ACCBB26E470D4", type: "xp", xp: 400 }
@@ -202,15 +155,11 @@
 			tasks: [
 				{ id: "206F6AD2C9A0D2F3", item: { count: 1, id: "ad_astra:tier_3_rocket" }, type: "item" }
 			]
-			title: "Cohete T3"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1C062C22816CA5F3"]
-			description: [
-				"Calor extremo: lleva el traje de netherita."
-			]
 			id: "33726D4BA74E9F9F"
 			rewards: [
 				{ id: "69C7F0ED42DE46F8", type: "xp", xp: 400 }
@@ -219,15 +168,11 @@
 				{ dimension: "ad_astra:venus", id: "10291FED5965973A", type: "dimension" }
 				{ dimension: "ad_astra:mercury", id: "169449326244A356", type: "dimension" }
 			]
-			title: "Venus y Mercurio"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["33726D4BA74E9F9F"]
-			description: [
-
-			]
 			id: "E0DF90C827470385"
 			rewards: [
 				{ id: "F88F7AFC8918BA66", type: "xp", xp: 200 }
@@ -235,15 +180,11 @@
 			tasks: [
 				{ id: "8102C10402E425B3", item: { count: 1, id: "ad_astra:calorite_ingot" }, type: "item", count: 16L }
 			]
-			title: "Calorita"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["E0DF90C827470385"]
-			description: [
-
-			]
 			id: "8FCC4385A19185EC"
 			rewards: [
 				{ id: "3A49E548F4A3E032", type: "xp", xp: 500 }
@@ -251,15 +192,11 @@
 			tasks: [
 				{ id: "518FE21446902A5A", item: { count: 1, id: "ad_astra:tier_4_rocket" }, type: "item" }
 			]
-			title: "Cohete T4"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["8FCC4385A19185EC"]
-			description: [
-				"El planeta helado de otro sistema. ¡Fin de la historia principal!"
-			]
 			id: "DF19B1C7526DC1B4"
 			rewards: [
 				{ id: "CC7EC88D60A18A91", type: "xp", xp: 1000 }
@@ -268,10 +205,8 @@
 			tasks: [
 				{ dimension: "ad_astra:glacio", id: "F8B1E482C8D45BB6", type: "dimension" }
 			]
-			title: "Glacio"
 			x: 4.5d
 			y: 3.0d
 		}
 	]
-	title: "8 · Espacio"
 }

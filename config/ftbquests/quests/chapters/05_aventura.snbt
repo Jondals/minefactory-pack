@@ -5,14 +5,11 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "twilightforest:naga_trophy" }
 	id: "0019855D0C52621F"
-	order_index: 4
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["56FD9A8B4093C81E"]
-			description: [
-				"Tira un diamante a un charco rodeado de flores."
-			]
 			id: "C71218CC351EDF46"
 			rewards: [
 				{ id: "D67B3818DC9E3635", type: "xp", xp: 50 }
@@ -20,15 +17,11 @@
 			tasks: [
 				{ dimension: "twilightforest:twilight_forest", id: "C78C827CA262BF60", type: "dimension" }
 			]
-			title: "El Bosque Crepuscular"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C71218CC351EDF46"]
-			description: [
-				"El primer jefe del bosque."
-			]
 			id: "4AA9EF474B15ED78"
 			rewards: [
 				{ id: "6B25E6ADEB777816", type: "xp", xp: 100 }
@@ -36,15 +29,11 @@
 			tasks: [
 				{ entity: "twilightforest:naga", id: "16D5B3165F31D5E0", type: "kill", value: 1L }
 			]
-			title: "La Naga"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4AA9EF474B15ED78"]
-			description: [
-				"En su torre, tras la Naga."
-			]
 			id: "C1DAD7A709B1980D"
 			rewards: [
 				{ id: "6B862CFC21018A3E", type: "xp", xp: 150 }
@@ -52,15 +41,11 @@
 			tasks: [
 				{ entity: "twilightforest:lich", id: "8B930828967A235F", type: "kill", value: 1L }
 			]
-			title: "El Lich"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C1DAD7A709B1980D"]
-			description: [
-				"🔒 Desbloquea: la mesa de la NASA (cohetes). ¡Guárdalo!"
-			]
 			id: "5A399B4EF840495A"
 			rewards: [
 				{ id: "F1FD7720EB4CD8F7", type: "xp", xp: 100 }
@@ -68,15 +53,11 @@
 			tasks: [
 				{ id: "7F19222E70423D32", item: { count: 1, id: "twilightforest:lich_trophy" }, type: "item" }
 			]
-			title: "Trofeo del Lich"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A399B4EF840495A"]
-			description: [
-				"En el pantano de fuego."
-			]
 			id: "B668776C81397B6C"
 			rewards: [
 				{ id: "83816123C9F0939C", type: "xp", xp: 200 }
@@ -85,15 +66,11 @@
 			tasks: [
 				{ entity: "twilightforest:hydra", id: "221D3B496984C969", type: "kill", value: 1L }
 			]
-			title: "La Hidra"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["B668776C81397B6C"]
-			description: [
-				"Portal de glowstone encendido con agua."
-			]
 			id: "C2B7C0327937C965"
 			rewards: [
 				{ id: "1F424DC9E85404AD", type: "xp", xp: 50 }
@@ -101,15 +78,11 @@
 			tasks: [
 				{ dimension: "aether:the_aether", id: "6CD58E37A6CEC6BD", type: "dimension" }
 			]
-			title: "El Aether"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["C2B7C0327937C965"]
-			description: [
-				"🔒 Desbloquea: los rodamientos de hélice de Create Aeronautics (dirigibles)."
-			]
 			id: "B660BD7DE55D3084"
 			rewards: [
 				{ id: "4CF09209B689341E", type: "xp", xp: 80 }
@@ -117,15 +90,11 @@
 			tasks: [
 				{ id: "DC7FFFB25D622EA6", item: { count: 1, id: "aether:zanite_gemstone" }, type: "item", count: 4L }
 			]
-			title: "Zanita"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["B660BD7DE55D3084"]
-			description: [
-				"Derrota al Slider."
-			]
 			id: "9ABA6E8741A0938B"
 			rewards: [
 				{ id: "00653F9290D9E1B0", type: "xp", xp: 150 }
@@ -133,15 +102,11 @@
 			tasks: [
 				{ id: "C1A20B6B645DE834", item: { count: 1, id: "aether:bronze_dungeon_key" }, type: "item" }
 			]
-			title: "Mazmorra de bronce"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["9ABA6E8741A0938B"]
-			description: [
-				"Portal en una ciudad antigua de la Oscuridad Profunda."
-			]
 			id: "42E730DE2A5B9B42"
 			rewards: [
 				{ id: "874E9C9FBC9BD923", type: "xp", xp: 80 }
@@ -149,15 +114,11 @@
 			tasks: [
 				{ dimension: "deeperdarker:otherside", id: "421D692C6BCBE198", type: "dimension" }
 			]
-			title: "El Otro Lado"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["42E730DE2A5B9B42"]
-			description: [
-				"🔒 Desbloquea: la carcasa del reactor nuclear de Create: New Age."
-			]
 			id: "CE57530850C64DA6"
 			rewards: [
 				{ id: "EAA65C3064CADB7B", type: "xp", xp: 120 }
@@ -165,15 +126,11 @@
 			tasks: [
 				{ id: "2F96A1A2D5268DB4", item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }, type: "item", count: 4L }
 			]
-			title: "Fragmento de eco reforzado"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["CE57530850C64DA6"]
-			description: [
-				"Una dimensión de cielos estrellados."
-			]
 			id: "107B88EEA4A84DC1"
 			rewards: [
 				{ id: "177DDE15373F2166", type: "xp", xp: 100 }
@@ -181,10 +138,8 @@
 			tasks: [
 				{ dimension: "eternal_starlight:starlight", id: "6CA1CA5D618ADED5", type: "dimension" }
 			]
-			title: "Eternal Starlight"
 			x: 1.5d
 			y: 1.5d
 		}
 	]
-	title: "5 · Aventura"
 }

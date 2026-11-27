@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23_musica"
+	group: "7928779FF95E2C29"
+	icon: { count: 1, id: "immersive_melodies:lute" }
+	id: "8B99D36051D9B8A3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "80CDF1CAF5A97EBB"
+			rewards: [
+				{ id: "6DB9ADA70EF7D3AD", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "8F7A1854DDE2A425", item: { count: 1, id: "immersive_melodies:lute" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["80CDF1CAF5A97EBB"]
+			id: "D8D387F848C5E1FD"
+			rewards: [
+				{ id: "265473A490DEFBE1", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "B9704A7F831F901C", type: "checkmark" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["80CDF1CAF5A97EBB"]
+			id: "813BBE4BDB629C0B"
+			rewards: [
+				{ id: "0ADDAE8C1714C185", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "3FF7507E38303398", item: { count: 1, id: "etched:blank_music_disc" }, type: "item" }
+				{ id: "8083C2706E55504C", item: { count: 1, id: "etched:music_label" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["813BBE4BDB629C0B"]
+			id: "13429A94F8493F39"
+			rewards: [
+				{ id: "33BD3C1EF4A86AC1", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "272925EBFB5451BA", item: { count: 1, id: "etched:boombox" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}
