@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "63c2ddce7adb7f31fcda50529006fc590be0ce973385242add2a141e30bd18f4"
+hash = "f07d8242b916990eb13228792d6aa7c2559b9661c754eb2a518a79864ccac503"
 metafile = true
 
 [[files]]
@@ -291,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
+hash = "c4f2a9678acf67122dbe6d8bc8c641503cc274305a3d62d86d6ba20d5fb28154"
 metafile = true
 
 [[files]]
@@ -1201,7 +1201,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "bd5bff86bc51d20fe7588a954b90ee451e9fde418270d49b20ab72645944a8f9"
+hash = "4edc0d9bfec9474920bfd58ae68989cbc3bef97650d679c2b49413b90ea7d0f6"
 metafile = true
 
 [[files]]
@@ -1976,12 +1976,12 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia-binaries.pw.toml"
-hash = "1d6340537d636a4996281ddc715c7cce3075197d2a92c088f9af61d8eb463891"
+hash = "0d4f8c09c4064fd45a96bff6f032591eebcee7a72f1576a35e15adeabfebaa4c"
 metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "39c8018bf31fe764a68adddde89e556f5226ef116345a6f69ff3b79218ea7e6c"
+hash = "30b5c0ac0a4d94d3b49c18537cf6753e2f93b34ec358f35e6307f2d2746d14f3"
 metafile = true
 
 [[files]]
