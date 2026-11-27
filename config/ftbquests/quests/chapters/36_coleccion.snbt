@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36_coleccion"
+	group: "B7062B72B144FAF5"
+	icon: { count: 1, id: "artifacts:crystal_heart" }
+	id: "BFFA2461B1D38759"
+	order_index: 36
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "B7759683C30F7DB6"
+			rewards: [
+				{ id: "5129B8C5F9A3FEFF", type: "xp", xp: 10 }
+			]
+			tasks: [
+				{ id: "0D6E03C9EDE1FCBE", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "24F7335CAE20DBB6"
+			rewards: [
+				{ id: "10E135D9A154691D", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "619AB8757EBAB7E1", item: { count: 1, id: "artifacts:running_shoes" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "8587F42BA62760C0"
+			rewards: [
+				{ id: "C2B83FAAD4CB87E9", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "946B63D03253C9E2", item: { count: 1, id: "artifacts:cloud_in_a_bottle" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "734651360BE2E8F2"
+			rewards: [
+				{ id: "C86F0E1755CED37E", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "31099A5017EAB6F9", item: { count: 1, id: "artifacts:power_glove" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "181E74B9F1BB6F60"
+			rewards: [
+				{ id: "65E3062D0C6C638C", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "12F682AF9EDF14E1", item: { count: 1, id: "artifacts:umbrella" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "A986B6F70AC31976"
+			rewards: [
+				{ id: "D60A8D5F6C713CF8", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "B8F4352C9997379C", item: { count: 1, id: "artifacts:snorkel" }, type: "item" }
+				{ id: "B9191735EA6A01B5", item: { count: 1, id: "artifacts:flippers" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "D30F94018FEB1DA7"
+			rewards: [
+				{ id: "796B643C4919D787", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "18C9D656FF702946", item: { count: 1, id: "artifacts:night_vision_goggles" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "0842B8D41540BBF5"
+			rewards: [
+				{ id: "22360764E6BD605D", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "43C8D816160F5A36", item: { count: 1, id: "artifacts:digging_claws" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "DC27E1285C90F143"
+			rewards: [
+				{ id: "778C82DDA75A7856", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "74EA96EB2AC1036C", item: { count: 1, id: "artifacts:crystal_heart" }, type: "item" }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "D69F167EA916400E"
+			rewards: [
+				{ id: "5D04C65494C9A5C8", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "F67BA41CD09C5C91", item: { count: 1, id: "artifacts:everlasting_beef" }, type: "item" }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "073115F3C54BC56A"
+			rewards: [
+				{ id: "FC4F40B94DC076BE", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "E011F230AAB2662E", type: "checkmark" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "ACAEB75E3A6117EA"
+			rewards: [
+				{ id: "6E61D97F0D32FCCA", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "CA593E1F8A31C6B7", item: { count: 1, id: "enhancedcelestials:meteor" }, type: "item" }
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B7759683C30F7DB6"]
+			id: "B7BCA4D65704CE1D"
+			rewards: [
+				{ id: "89653F4B20B0156E", type: "xp", xp: 500 }
+				{ count: 1, id: "00F71B389ABD2256", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }
+			]
+			tasks: [
+				{ id: "62C242E1C016ECFF", item: { count: 1, id: "twilightforest:naga_trophy" }, type: "item" }
+				{ id: "896B50212E6FC777", item: { count: 1, id: "twilightforest:lich_trophy" }, type: "item" }
+				{ id: "5CC2D22D8DE0DF8C", item: { count: 1, id: "twilightforest:minoshroom_trophy" }, type: "item" }
+				{ id: "6F71231E58192AFC", item: { count: 1, id: "twilightforest:hydra_trophy" }, type: "item" }
+				{ id: "72E0822A3A02FF33", item: { count: 1, id: "twilightforest:knight_phantom_trophy" }, type: "item" }
+				{ id: "7537420C7B57E6A0", item: { count: 1, id: "twilightforest:ur_ghast_trophy" }, type: "item" }
+				{ id: "ADA8A489B766805C", item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }, type: "item" }
+				{ id: "0E8F8BF4ABEC5125", item: { count: 1, id: "twilightforest:snow_queen_trophy" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

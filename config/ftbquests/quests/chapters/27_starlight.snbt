@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "27_starlight"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "eternal_starlight:starlight_flower" }
+	id: "60A45E7BB6918461"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["107B88EEA4A84DC1"]
+			id: "6C00A572EACAA2D6"
+			rewards: [
+				{ id: "633B4094DA0DF1D6", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "4ACF4F0D3891B995", item: { count: 1, id: "eternal_starlight:red_starlight_crystal_shard" }, type: "item", count: 4L }
+				{ id: "49A2C1AE037EB6AD", item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }, type: "item", count: 4L }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C00A572EACAA2D6"]
+			id: "A8DA05F322E5CF1F"
+			rewards: [
+				{ id: "20B2D81E4C1484E2", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "F5D909292CEA4777", item: { count: 1, id: "eternal_starlight:seeking_eye" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A8DA05F322E5CF1F"]
+			id: "D2D32B4429C746FB"
+			rewards: [
+				{ id: "089494622E62DB5B", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "F841870077707830", item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }, type: "item", count: 8L }
+				{ id: "0AF1C3CB63BDBD14", item: { count: 1, id: "eternal_starlight:thermal_springstone_pickaxe" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D2D32B4429C746FB"]
+			id: "D5D7247D5AE8FDA9"
+			rewards: [
+				{ id: "73C2C63C6D5C997B", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "B899FC5D4FDEB385", item: { count: 1, id: "eternal_starlight:aethersent_ingot" }, type: "item", count: 4L }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D5D7247D5AE8FDA9"]
+			id: "B2AC010D6D39B52F"
+			rewards: [
+				{ id: "6AAF52BE2817C399", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ entity: "eternal_starlight:the_gatekeeper", id: "FEDA63B1E0C79014", type: "kill", value: 1L }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B2AC010D6D39B52F"]
+			id: "FA56FAEECC1BFE99"
+			rewards: [
+				{ id: "6AEB8C9ECDC9F207", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ entity: "eternal_starlight:starlight_golem", id: "13FAFEE62A9566B2", type: "kill", value: 1L }
+				{ id: "480886FBB1F1DECB", item: { count: 1, id: "eternal_starlight:golem_steel_ingot" }, type: "item", count: 4L }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA56FAEECC1BFE99"]
+			id: "58D13E65191AE630"
+			rewards: [
+				{ id: "86545B77BF159C24", type: "xp", xp: 400 }
+				{ count: 8, id: "F63ED48EF27FD4B1", item: { count: 1, id: "minecraft:diamond" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "eternal_starlight:lunar_monstrosity", id: "E7F6B04DD445ED83", type: "kill", value: 1L }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+}

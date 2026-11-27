@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34_arte"
+	group: "B7062B72B144FAF5"
+	icon: { count: 1, id: "zetter:easel" }
+	id: "2123919960CBF829"
+	order_index: 34
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "923CFA5A5B3304B9"
+			rewards: [
+				{ id: "4B518904B9DC793D", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "680641B652DE4EF7", item: { count: 1, id: "zetter:easel" }, type: "item" }
+				{ id: "887A3F3773C96EF1", item: { count: 1, id: "zetter:palette" }, type: "item" }
+				{ id: "3E0A99A6D67D09F0", item: { count: 1, id: "zetter:artist_table" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["923CFA5A5B3304B9"]
+			id: "F866F2CA0958DF48"
+			rewards: [
+				{ id: "AEB46F70B33DFCEB", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "44B0732FA1822773", item: { count: 1, id: "xercapaint:item_easel" }, type: "item" }
+				{ id: "113866BBC7AB06BE", item: { count: 1, id: "xercapaint:item_palette" }, type: "item" }
+				{ id: "CE53C63A325F7B17", item: { count: 1, id: "xercapaint:item_canvas" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["923CFA5A5B3304B9"]
+			id: "E69379D99281DBF8"
+			rewards: [
+				{ id: "3D32D34E5D2009EE", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "25972DD804561805", item: { count: 1, id: "immersive_paintings:painting" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["923CFA5A5B3304B9"]
+			id: "D48C9500A9364F5D"
+			rewards: [
+				{ id: "8E053ADAEB112868", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "A3D6455BC52B63AB", item: { count: 1, id: "artistry:poster" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["923CFA5A5B3304B9"]
+			id: "57E5C60A0322D0C4"
+			rewards: [
+				{ id: "96915C9EE12F23CE", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "5ACEB8C3E4C2DF3C", item: { count: 1, id: "vista:television" }, type: "item" }
+				{ id: "7A06ED2B2F4834C3", item: { count: 1, id: "vista:viewfinder" }, type: "item" }
+				{ id: "8623559FE7A59649", item: { count: 1, id: "vista:picture_tape" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

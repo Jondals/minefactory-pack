@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "33_fauna"
+	group: "B7062B72B144FAF5"
+	icon: { count: 1, id: "longwings:catching_net" }
+	id: "B666FC242C692053"
+	order_index: 33
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "E8CBA6475408CE21"
+			rewards: [
+				{ id: "A0C45AA09A10D77F", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "3764421B885C200C", item: { count: 1, id: "naturalist:capture_net" }, type: "item" }
+				{ id: "CC54AA57CADEDE67", item: { count: 1, id: "longwings:catching_net" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "89EF16D6B2215A30"
+			rewards: [
+				{ id: "4CF9ECD0DB0D48BB", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "53D9A9962853529C", item: { count: 1, id: "longwings:butterfly_handbook" }, type: "item" }
+				{ id: "12281766BCF07048", item: { count: 1, id: "longwings:butterfly_feeder_bowl" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "98FE61557726F621"
+			rewards: [
+				{ id: "8AC09BFA009E3FFC", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "F951991990BCBD0D", item: { count: 1, id: "crittersandcompanions:silk" }, type: "item", count: 4L }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "DAAE19E21B4A7B7F"
+			rewards: [
+				{ id: "0B1F39B17DCB1C08", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "1470C0BDA553403B", item: { count: 1, id: "crittersandcompanions:pearl_necklace_1" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "D1E0D4EB5B1EFB14"
+			rewards: [
+				{ id: "5D995804D401552A", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "7028FB523CC3C3A9", item: { count: 1, id: "crittersandcompanions:koi_fish_bucket" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "4AFDD7E259216582"
+			rewards: [
+				{ id: "248EC96AC6422455", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "4599DB00150E7229", item: { count: 1, id: "crittersandcompanions:dragonfly_wing" }, type: "item", count: 2L }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "C6F1123B879602D0"
+			rewards: [
+				{ id: "A48FCCD25109B79C", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "07717F7705AFA3CD", item: { count: 1, id: "adorablehamsterpets:hamster_food_mix" }, type: "item" }
+				{ id: "3B0EFD3352F6A694", item: { count: 1, id: "adorablehamsterpets:hamster_bed" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "58620F42EB3D5446"
+			rewards: [
+				{ id: "3B694D882EE9CD35", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "A869C2CADF1EAA84", item: { count: 1, id: "deermod:antlers" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "AC969B23DAC3ABD9"
+			rewards: [
+				{ id: "55E608D2B9CF2853", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "F701182ECB575A25", item: { count: 1, id: "ecologics:penguin_feather" }, type: "item", count: 2L }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "90332F12F3613D8B"
+			rewards: [
+				{ id: "BBAE746360E797D7", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "E658FC5895926D8E", item: { count: 1, id: "friendsandfoes:crab_claw" }, type: "item" }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "E606C5AC8ED1DA2A"
+			rewards: [
+				{ id: "0A8D469FEF1FDA8E", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "CFCE0602CEF4FE18", item: { count: 1, id: "ribbits:maraca" }, type: "item" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "BDC7748019341AD4"
+			rewards: [
+				{ id: "4BB87DD21AA34865", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "F4E2C26B7126589F", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "C85FFF17214C1AEC"
+			rewards: [
+				{ id: "C888E46D0AD078B4", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "9CCB32372DAA7E6E", item: { count: 1, id: "hybrid_aquatic:betta" }, type: "item" }
+				{ id: "61FF50FB07A39F88", item: { count: 1, id: "hybrid_aquatic:clownfish" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "228F61B6D12C28D0"
+			rewards: [
+				{ id: "A9E43A4D73606707", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "75941116215219E6", item: { count: 1, id: "hybrid_aquatic:basking_shark_plushie" }, type: "item" }
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["E8CBA6475408CE21"]
+			id: "579BC1977C00C9A9"
+			rewards: [
+				{ id: "2149F5E1B41181A9", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "EDF1D0F51D078E4F", item: { count: 1, id: "spiritcompanions:spirit_lantern" }, type: "item" }
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+}

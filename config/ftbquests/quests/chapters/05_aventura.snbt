@@ -5,7 +5,7 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "twilightforest:naga_trophy" }
 	id: "0019855D0C52621F"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

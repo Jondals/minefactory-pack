@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "naturescompass:naturescompass" }
 	id: "5EFF1B48591278A6"
-	order_index: 19
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{

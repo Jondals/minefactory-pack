@@ -5,7 +5,7 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "create:brass_ingot" }
 	id: "E75C9B4C9411B95E"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

@@ -5,7 +5,7 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "create:controls" }
 	id: "2EC4EE58BB285AC5"
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

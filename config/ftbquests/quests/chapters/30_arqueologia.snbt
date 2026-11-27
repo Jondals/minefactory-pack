@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30_arqueologia"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "betterarcheology:iron_brush" }
+	id: "942F41F54C675213"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "5B88C6672C67EECD"
+			rewards: [
+				{ id: "8324C682DBB49BD9", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "69EE75CC81C6FF17", item: { count: 1, id: "betterarcheology:iron_brush" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B88C6672C67EECD"]
+			id: "0B0FCD599E7B5417"
+			rewards: [
+				{ id: "79D041E6DFFF7EE4", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "C43A80FEEDCF0253", item: { count: 1, id: "betterarcheology:archeology_table" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0FCD599E7B5417"]
+			id: "CC18C71A774CBA99"
+			rewards: [
+				{ id: "8141267120D1FE99", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "0BA3E9485C4F2B2A", item: { count: 1, id: "betterarcheology:unidentified_artifact" }, type: "item" }
+				{ id: "7CEF8EBBC869CB46", item: { count: 1, id: "betterarcheology:identified_artifact" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC18C71A774CBA99"]
+			id: "AE1A50CEC6177D55"
+			rewards: [
+				{ id: "B9C23AA5B8AC78B4", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "23201EC791FC48CB", item: { count: 1, id: "betterarcheology:villager_fossil" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE1A50CEC6177D55"]
+			id: "61662439EFDC9633"
+			rewards: [
+				{ id: "631D2AC8CD4A61E4", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "BF6688942BFE86F3", item: { count: 1, id: "betterarcheology:growth_totem" }, type: "item" }
+				{ id: "FC7A17051A8D5459", item: { count: 1, id: "betterarcheology:radiance_totem" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61662439EFDC9633"]
+			id: "5A2C0899857E757A"
+			rewards: [
+				{ id: "5CE4847D26E2D5E1", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "9D86E581C94D9FE3", item: { count: 1, id: "betterarcheology:diamond_brush" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

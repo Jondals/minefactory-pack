@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "createoreexcavation:drilling_machine" }
 	id: "FA0C483F95B549F9"
-	order_index: 18
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{

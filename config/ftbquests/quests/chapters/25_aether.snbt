@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25_aether"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "aether:gold_dungeon_key" }
+	id: "57EA1417A2C92F3D"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["C2B7C0327937C965"]
+			id: "DC3E0012F66B7358"
+			rewards: [
+				{ id: "04940ADCCC52F6E3", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "9CADFF804FFF4030", item: { count: 1, id: "aether:altar" }, type: "item" }
+				{ id: "8E269C121535904E", item: { count: 1, id: "aether:freezer" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DC3E0012F66B7358"]
+			id: "BF1820D784C0D2B3"
+			rewards: [
+				{ id: "324333BF03A74EC1", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "42A34C555DC19360", item: { count: 1, id: "aether:ambrosium_shard" }, type: "item", count: 16L }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BF1820D784C0D2B3"]
+			id: "EC22F39AFE746317"
+			rewards: [
+				{ id: "683AF4B2FBF7C33D", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "18862E18C6A33581", item: { count: 1, id: "aether:skyroot_bucket" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EC22F39AFE746317"]
+			id: "BC04263FDACF1604"
+			rewards: [
+				{ id: "BF33CAFAAE5CD709", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "C042D46B705CFC25", item: { count: 1, id: "aether:blue_moa_egg" }, type: "item" }
+				{ id: "C19D52D3C222A31B", item: { count: 1, id: "aether:incubator" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BC04263FDACF1604"]
+			id: "A393E918E47EFB22"
+			rewards: [
+				{ id: "FF839A5FC6D75A08", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "32D0C1B1A1EA142F", item: { count: 1, id: "aether:cold_parachute" }, type: "item" }
+				{ id: "299A0B9D8435B8B7", item: { count: 1, id: "aether:golden_parachute" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A393E918E47EFB22"]
+			id: "B395027043A1F88A"
+			rewards: [
+				{ id: "F701FF7CF7C8C767", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "397E5FCB92012F06", item: { count: 1, id: "aether:zanite_pickaxe" }, type: "item" }
+				{ id: "01E4AC6890C538D2", item: { count: 1, id: "aether:zanite_sword" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B395027043A1F88A"]
+			id: "7F4A3FAE28DDC11E"
+			rewards: [
+				{ id: "07FB2A923752996B", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ entity: "aether:slider", id: "E1A65339C0B4F042", type: "kill", value: 1L }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F4A3FAE28DDC11E"]
+			id: "04A5AE0C26748800"
+			rewards: [
+				{ id: "98E672A63AB973A6", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ entity: "aether:valkyrie_queen", id: "94F0E91834E69DF5", type: "kill", value: 1L }
+				{ id: "E97E4514ECE7DC30", item: { count: 1, id: "aether:silver_dungeon_key" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04A5AE0C26748800"]
+			id: "0D62886ACDF85BAE"
+			rewards: [
+				{ id: "4FD4E35CAD2E0F5A", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ entity: "aether:sun_spirit", id: "DB62E5A1A21447D8", type: "kill", value: 1L }
+				{ id: "5A478C4BF70B65A3", item: { count: 1, id: "aether:gold_dungeon_key" }, type: "item" }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D62886ACDF85BAE"]
+			id: "0E061A12D5005A74"
+			rewards: [
+				{ id: "37AA97744C137C34", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "D595200D4843151C", item: { count: 1, id: "aether:enchanted_gravitite" }, type: "item", count: 8L }
+				{ id: "665DA61BD907EC98", item: { count: 1, id: "aether:gravitite_pickaxe" }, type: "item" }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B395027043A1F88A"]
+			id: "0F3C81BC72505E50"
+			rewards: [
+				{ id: "3EEDC97C8E11AD92", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "3489250A5D11F47D", item: { count: 1, id: "aether:iron_ring" }, type: "item" }
+				{ id: "45B5BC7ADBB6414A", item: { count: 1, id: "aether:golden_pendant" }, type: "item" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

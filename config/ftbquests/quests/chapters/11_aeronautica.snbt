@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "aeronautics:propeller_bearing" }
 	id: "2FAB48D5137802EA"
-	order_index: 15
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

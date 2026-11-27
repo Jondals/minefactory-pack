@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35_parkour"
+	group: "B7062B72B144FAF5"
+	icon: { count: 1, id: "parcool:parcool_guide" }
+	id: "D3418585293EB860"
+	order_index: 35
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "9F04A5D8C987D830"
+			rewards: [
+				{ id: "516BF92751F4E230", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "0441D8886CCB0AEF", item: { count: 1, id: "parcool:parcool_guide" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F04A5D8C987D830"]
+			id: "AB6869976451F080"
+			rewards: [
+				{ id: "9E4CA26FF7A31E7C", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "E9A847F5E7A871F4", item: { count: 1, id: "parcool:traceur_gloves" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F04A5D8C987D830"]
+			id: "10F689F4930495D0"
+			rewards: [
+				{ id: "5E68AB9867480940", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "4AC1E2D731D3D753", item: { count: 1, id: "parcool:zipline_rope" }, type: "item", count: 8L }
+				{ id: "B352805578B3F5EA", item: { count: 1, id: "parcool:wooden_zipline_hook" }, type: "item", count: 2L }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F04A5D8C987D830"]
+			id: "30D9D64EE7CDDEE2"
+			rewards: [
+				{ id: "B9C890A8450DA016", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "5553FD0FB414740A", item: { count: 1, id: "crittersandcompanions:grappling_hook" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F04A5D8C987D830"]
+			id: "C125D5328649E733"
+			rewards: [
+				{ id: "BC53F19AE51D84E3", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "43EB88758D235A69", item: { count: 1, id: "playertrackingcompass:tracking_compass" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F04A5D8C987D830"]
+			id: "4CB7604EA0487A0F"
+			rewards: [
+				{ id: "17175D69C5629C2A", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "A836A77C350417E8", item: { count: 1, id: "seaworthyboats:shipyard" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

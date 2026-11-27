@@ -5,7 +5,7 @@
 	group: "A28261F73C539940"
 	icon: { count: 1, id: "create:andesite_alloy" }
 	id: "E55FFB9334029483"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

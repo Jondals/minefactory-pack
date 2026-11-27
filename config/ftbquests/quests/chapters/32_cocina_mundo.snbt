@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32_cocina_mundo"
+	group: "B7062B72B144FAF5"
+	icon: { count: 1, id: "meadow:cheese_wheel" }
+	id: "560CA896AE82A8B5"
+	order_index: 32
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "F1B54893935E110D"
+			rewards: [
+				{ id: "4346B57067E4F611", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "BFAC4C1759823764", item: { count: 1, id: "meadow:cheese_form" }, type: "item" }
+				{ id: "C262AEC578E7CFB8", item: { count: 1, id: "meadow:cheese_wheel" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "F24D3E20F2C49A3D"
+			rewards: [
+				{ id: "E32D1489BF8D0097", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "516D1529BC03F025", item: { count: 1, id: "meadow:fondue_pot" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "D10559B232DAA7EC"
+			rewards: [
+				{ id: "EF717335C9029FFC", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "1CE3107AF71CA0AB", item: { count: 1, id: "rusticdelight:coffee" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "015F1C3FC8E59EED"
+			rewards: [
+				{ id: "34E922F482C15429", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "20367C92C00821D4", item: { count: 1, id: "rusticdelight:fried_chicken" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "067603D0D6906062"
+			rewards: [
+				{ id: "FB432F5A810CDD3C", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "55F0416063B5618F", item: { count: 1, id: "expandeddelight:juicer" }, type: "item" }
+				{ id: "BD88BD60340C3B1D", item: { count: 1, id: "expandeddelight:cheese_wheel" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "B130D8C4EB79C132"
+			rewards: [
+				{ id: "536FA0BEB7CD31E6", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "98490913CB4B1575", item: { count: 1, id: "mynethersdelight:nether_stove" }, type: "item" }
+				{ id: "9397D28CF2F67540", item: { count: 1, id: "mynethersdelight:hotdog" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "69B161C29AA7CD65"
+			rewards: [
+				{ id: "CD1BA788B43C5E41", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ id: "853EB057660700C6", item: { count: 1, id: "ends_delight:end_stove" }, type: "item" }
+				{ id: "678A545F90503428", item: { count: 1, id: "ends_delight:dragon_leg" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "EA600844717F8B9E"
+			rewards: [
+				{ id: "FC9CAD04996A11CE", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "BB2CCADE331A1181", item: { count: 1, id: "oceansdelight:fugu_roll" }, type: "item" }
+				{ id: "873356F790C4BC1D", item: { count: 1, id: "oceansdelight:guardian_soup" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "10EB7670E929EB54"
+			rewards: [
+				{ id: "8B1966467B7B6632", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "49D4C35E1AE661B9", item: { count: 1, id: "minersdelight:rock_soup_cup" }, type: "item" }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "AAE6A3D12A3327BA"
+			rewards: [
+				{ id: "3E37926F87F0A0F3", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "D296F889FC3E7A73", item: { count: 1, id: "spookyjams:spooky_yam_jam" }, type: "item" }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "1456D77C3852179F"
+			rewards: [
+				{ id: "65F373361828BCFF", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "3E6C28A87530FFEA", item: { count: 1, id: "beachparty:coconut_cocktail" }, type: "item" }
+				{ id: "83D3BAB27A2AF58A", item: { count: 1, id: "beachparty:beach_chair" }, type: "item" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "B580C7F94CEE0B56"
+			rewards: [
+				{ id: "CB27E35C3B9B4984", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "A1E3096E5D1F03D8", item: { count: 1, id: "ecologics:maple_syrup_bottle" }, type: "item" }
+				{ id: "70F33187CBCFAD2E", item: { count: 1, id: "ecologics:maple_pancakes" }, type: "item" }
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["F1B54893935E110D"]
+			id: "2D2AC83E571FCFDD"
+			rewards: [
+				{ id: "52974071CEED6607", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "7B782BBA7F01C368", item: { count: 1, id: "create_factory:chocolate_waffle" }, type: "item" }
+				{ id: "D8635CB136DD9558", item: { count: 1, id: "garnished:nut_mix" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

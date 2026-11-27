@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29_combate"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "immersive_armors:warrior_chestplate" }
+	id: "0E0B2928635D78DB"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["079F447EF5399AF3"]
+			id: "986227ABF0DF5876"
+			rewards: [
+				{ id: "26CD4CA86D58E563", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "3FB02BA8BFE144DD", item: { count: 1, id: "dummmmmmy:target_dummy" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "C3A357DA924B154D"
+			rewards: [
+				{ id: "965C0A28808765E6", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "1359F368418B5231", item: { count: 1, id: "immersive_armors:warrior_chestplate" }, type: "item" }
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "C6DC6C43655F7D29"
+			rewards: [
+				{ id: "2C510C740230CBEB", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "754480FE307F5F7A", item: { count: 1, id: "immersive_armors:heavy_chestplate" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "76B0F453DFECB750"
+			rewards: [
+				{ id: "4AC2C2F34332BC00", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "594AE6E05DEFDCC2", item: { count: 1, id: "immersive_armors:steampunk_chestplate" }, type: "item" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "AD5E0125EA3F3035"
+			rewards: [
+				{ id: "229ACD4308096E73", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ id: "2975ED7D21147B08", item: { count: 1, id: "immersive_armors:divine_chestplate" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "2478EC525A00C3D6"
+			rewards: [
+				{ id: "F0D2FED5AAE36319", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "B1DEF14D2E3381C7", item: { count: 1, id: "immersive_armors:wither_chestplate" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "12229CD5FC962F68"
+			rewards: [
+				{ id: "6EEF00C49C0176DC", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "03732686AAF623AD", item: { count: 1, id: "more_armor_trims:storm_armor_trim_smithing_template" }, type: "item" }
+				{ id: "1609F6DB0E8D5272", item: { count: 1, id: "more_armor_trims:twilight_armor_trim_smithing_template" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "AC68715FE03005E9"
+			rewards: [
+				{ id: "A26D7EC09EC5051C", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ id: "745BD179005535C7", item: { count: 1, id: "friendsandfoes:totem_of_freezing" }, type: "item" }
+				{ id: "79E97D6D72EA2780", item: { count: 1, id: "friendsandfoes:totem_of_illusion" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "D2E7EA3642EC900B"
+			rewards: [
+				{ id: "00ABB27C87D99DAA", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "A4AD3A64985158CC", item: { count: 1, id: "endermanoverhaul:corrupted_blade" }, type: "item" }
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "AA45EA2EB24FD448"
+			rewards: [
+				{ id: "F93D5DE04745C07F", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ entity: "minecraft:elder_guardian", id: "700C414FDD38236F", type: "kill", value: 1L }
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["986227ABF0DF5876"]
+			id: "50FE0F64762D2CF1"
+			rewards: [
+				{ id: "8D824CFA451BD541", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "902662E692632F21", item: { count: 1, id: "netherite_horse_armor:netherite_horse_armor" }, type: "item" }
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

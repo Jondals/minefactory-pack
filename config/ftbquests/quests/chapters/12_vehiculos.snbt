@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "smallships:oak_cog" }
 	id: "1A6106F66F57C683"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

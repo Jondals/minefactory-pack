@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "tfmg:steel_ingot" }
 	id: "4E61334EC599EB4A"
-	order_index: 23
+	order_index: 19
 	quest_links: [ ]
 	quests: [
 		{

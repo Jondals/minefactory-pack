@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "23_musica"
-	group: "7928779FF95E2C29"
+	group: "B7062B72B144FAF5"
 	icon: { count: 1, id: "immersive_melodies:lute" }
 	id: "8B99D36051D9B8A3"
-	order_index: 5
+	order_index: 30
 	quest_links: [ ]
 	quests: [
 		{
@@ -56,6 +56,44 @@
 			]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["80CDF1CAF5A97EBB"]
+			id: "C61746F01B844BB5"
+			rewards: [
+				{ id: "115C88AF075C6590", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "3B5486DE695B573F", item: { count: 1, id: "xercamusic:guitar" }, type: "item" }
+				{ id: "FF8BADCEFB7B2395", item: { count: 1, id: "xercamusic:music_sheet" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["80CDF1CAF5A97EBB"]
+			id: "BE9221AB3E828108"
+			rewards: [
+				{ id: "429281FB8F707356", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ id: "F5F434C7EB265ECD", item: { count: 1, id: "mimi:piano" }, type: "item" }
+				{ id: "45E593B811DF6D60", item: { count: 1, id: "mimi:guide" }, type: "item" }
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["80CDF1CAF5A97EBB"]
+			id: "EE7E9C639F2D936E"
+			rewards: [
+				{ id: "652FA5C01F7EE5D7", type: "xp", xp: 40 }
+			]
+			tasks: [
+				{ id: "D40F0FCE86D7E4F0", item: { count: 1, id: "genshinstrument:windsong_lyre" }, type: "item" }
+			]
+			x: 7.5d
+			y: 1.5d
 		}
 	]
 }
