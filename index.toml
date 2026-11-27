@@ -113,12 +113,88 @@ file = "config/fml.toml"
 hash = "afe3c8949ae503349c5856bc97faa57fe2700f5e2b3d51b1a018fd0462c7f8e2"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "f640b6ab6cf1c332f6e1a63d0134760dfb2b35601051f576d37168bb68b33bbc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/01_llegada.snbt"
+hash = "48e67db55b4561c4d11e38ca76b811fffdb015fcd68615c8f6109d0fca3209b8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/02_andesita.snbt"
+hash = "4c94c44991c95c40e3ef07a1c8ecbdc298d544af39823f3f3d2b29067e7f192e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/03_laton.snbt"
+hash = "a51602df7daf8cbfc7582b9962d18f3f32b553cb3504fa45260ea433664a57e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/04_logistica.snbt"
+hash = "6a0f3927850d8c3289ec814f3d221b2320591675aafff7acac2d99f67aecab29"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/05_aventura.snbt"
+hash = "bf5b7a07e77ed0f477d55c2c94b9799cb7011ef8135d4aac8ab9931f9a94c5a5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/06_energia.snbt"
+hash = "75124949ef39cdccc1f55a52213e9c49ccdc570ff0b63871d7516a68f3b8bc39"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/07_nether_end.snbt"
+hash = "cdc513053ad2a8e7211bb86e0f3ccff4d09f35ba961c4fd35e169f36ce1b8433"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_espacio.snbt"
+hash = "5484608668672472adbeb2cbc0aaa2662cda9d93f2e6495f9741bc2659f581f0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_aviacion.snbt"
+hash = "c35be78e20fb3a610d7624b2077d043f60f8c4030bc61245ad5006c957b4205a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/11_aeronautica.snbt"
+hash = "dc3be02ebd7d8b27d2a9a66684d1865a07a34050c95e6f2cfbdeebe4f767c8f3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/12_vehiculos.snbt"
+hash = "f6b71deda347975731dfc00294562944ac61280c8d0c1225d536aeeeac840b0c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/13_artilleria.snbt"
+hash = "5b6d9af38199fb39087c38a48fff62533095989428c650783d64abcd7d81afd5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/14_mineria.snbt"
+hash = "50b5892af4b469a9be2ad4d149d36e5bbb24a8b8594295117024615387c93bcc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/15_cocina.snbt"
+hash = "46010d8bfc1dd6855a73b39057cbe68b63c3ae0ddf4937869ead62cb7d39969c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/16_mascotas.snbt"
+hash = "6e0d9a6b80937e3b3ef38baa8a84639de07c14137a2c80d699a3610aeb4013d5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/17_fotografia.snbt"
+hash = "764cd03131e26653985887f654e16906e35ecdd7703b64a1d007befafe5c1541"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "aadaa2781c6950417889e04041c284df1d9648800d113bc0f3c9dcfabdd05f76"
+
+[[files]]
 file = "config/iris.properties"
 hash = "1720e896ee48c6e29e1b07eb1b487c0dccbe6a0bbff76a3356e167726d5053ae"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "04df91834f905b29d75ac8c3dbead4625ecb3802cbc6866941198056ca193935"
+
+[[files]]
+file = "kubejs/server_scripts/minefactory_progresion.js"
+hash = "efba4a40fe9d2a3bebdf9c49d35263d7bf0d98a42b48e0a99046b67d921ddace"
 
 [[files]]
 file = "mods/0pack2reload.pw.toml"
@@ -231,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "21347d7f9c96cebacb7238dbef2670e2906a11572606016c8184e9485947dacc"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
 
 [[files]]
@@ -307,6 +383,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
 metafile = true
 
 [[files]]
@@ -1025,6 +1106,16 @@ hash = "c12389f2e4a99cf0e4e42e0f908977d5a21fd91e94201b8156913e9ea2e074c8"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "108739f2fdaa6a885a3217ae692b2521ab10b8e71fa1222c67274ea0562649a5"
 metafile = true
@@ -1677,6 +1768,11 @@ metafile = true
 [[files]]
 file = "mods/resourcify.pw.toml"
 hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]

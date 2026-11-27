@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16_mascotas"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "doggytalents:training_treat" }
+	id: "45DF6326436E4CB5"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"Doggy Talents: dale una a un lobo domesticado."
+			]
+			id: "FFB508C542EBE732"
+			rewards: [
+				{ id: "B2C7D8253D66AE1F", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "027A212AD42648C0", item: { count: 1, id: "doggytalents:training_treat" }, type: "item", count: 4L }
+			]
+			title: "Premio de entrenamiento"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FFB508C542EBE732"]
+			description: [
+
+			]
+			id: "C0470E43DA7336E6"
+			rewards: [
+				{ id: "BD1DBFCD8830E5BA", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "96D05732D2F87739", item: { count: 1, id: "doggytalents:dog_bed" }, type: "item" }
+			]
+			title: "Cama de perro"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C0470E43DA7336E6"]
+			description: [
+
+			]
+			id: "5B8C0E8647C8A090"
+			rewards: [
+				{ id: "F56F100FDC866FE4", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "3AD2C1732F4FF994", item: { count: 1, id: "doggytalents:whistle" }, type: "item" }
+			]
+			title: "Silbato"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8C0E8647C8A090"]
+			description: [
+				"Sube de nivel a tu perro."
+			]
+			id: "B453C4B917DEFA3E"
+			rewards: [
+				{ id: "7A85A0FB93428E55", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "431EA23B4F15E54A", item: { count: 1, id: "doggytalents:super_treat" }, type: "item" }
+			]
+			title: "Súper premio"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Mascotas"
+}

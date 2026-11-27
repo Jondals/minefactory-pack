@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06_energia"
+	group: "A28261F73C539940"
+	icon: { count: 1, id: "createaddition:electric_motor" }
+	id: "94EAE30D8181C32E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["079F447EF5399AF3"]
+			description: [
+				"Rotación → electricidad (Crafts & Additions)."
+			]
+			id: "A2FBD10AED160ED8"
+			rewards: [
+				{ id: "50A8A88333D88D39", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "61E813107E9223D9", item: { count: 1, id: "createaddition:alternator" }, type: "item" }
+			]
+			title: "Alternador"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A2FBD10AED160ED8"]
+			description: [
+				"Lleva la corriente lejos."
+			]
+			id: "9BA8C539608CDF41"
+			rewards: [
+				{ id: "AF9DC57B00FAD195", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "FF1FB740F287E910", item: { count: 1, id: "createaddition:copper_spool" }, type: "item", count: 4L }
+				{ id: "38480A90C1145408", item: { count: 1, id: "createaddition:connector" }, type: "item", count: 4L }
+			]
+			title: "Cables"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9BA8C539608CDF41"]
+			description: [
+				"Guarda la energía."
+			]
+			id: "AC2C6913B5D10173"
+			rewards: [
+				{ id: "450B46B87382BB31", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "46CC8E81E419F52D", item: { count: 1, id: "createaddition:modular_accumulator" }, type: "item", count: 4L }
+			]
+			title: "Acumulador"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AC2C6913B5D10173"]
+			description: [
+				"Electricidad → rotación, donde quieras."
+			]
+			id: "C4D7F89101800D33"
+			rewards: [
+				{ id: "AD7B0AAECDF710B4", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "1B2AC3E488BB3AFF", item: { count: 1, id: "createaddition:electric_motor" }, type: "item" }
+			]
+			title: "Motor eléctrico"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C4D7F89101800D33"]
+			description: [
+				"Create: New Age, energía más seria."
+			]
+			id: "BCD8647B8C014597"
+			rewards: [
+				{ id: "4AB35A3F8856304A", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "220D21803DC48E1E", item: { count: 1, id: "create_new_age:generator_coil" }, type: "item", count: 4L }
+				{ id: "5C99FFA6567BB19A", item: { count: 1, id: "create_new_age:basic_motor" }, type: "item" }
+			]
+			title: "Generadores New Age"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BCD8647B8C014597"]
+			description: [
+				"Petróleo, refinería y motores diésel."
+			]
+			id: "68C8BCD222C566CE"
+			rewards: [
+				{ id: "1AD7682C40E7AC2A", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6EF289FFF3E2FFDC", item: { count: 1, id: "createdieselgenerators:diesel_engine" }, type: "item" }
+				{ id: "5DF1C0F7302FE854", item: { count: 1, id: "createdieselgenerators:distillation_controller" }, type: "item" }
+			]
+			title: "Diésel"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C8BCD222C566CE"]
+			description: [
+				"Encuentra y extrae crudo."
+			]
+			id: "28673754C8C3228B"
+			rewards: [
+				{ id: "BAB9A3D97DD0FDA4", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "D54902C5DAF9482D", item: { count: 1, id: "createdieselgenerators:pumpjack_head" }, type: "item" }
+				{ id: "FCBBC7222417CE23", item: { count: 1, id: "createdieselgenerators:oil_scanner" }, type: "item" }
+			]
+			title: "Bombeo de petróleo"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28673754C8C3228B"]
+			description: [
+				"Combustible nuclear."
+			]
+			id: "AA59825F5622C5B8"
+			rewards: [
+				{ id: "9DB21BBD70555DDE", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "18C8EB4D494F90A9", item: { count: 1, id: "create_new_age:thorium" }, type: "item", count: 8L }
+			]
+			title: "Torio"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["AA59825F5622C5B8"]
+			description: [
+				"Requiere eco reforzado del Otro Lado."
+			]
+			id: "16529C5EA9BC80CE"
+			rewards: [
+				{ id: "60C93EB3A761C0DB", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "37DA59AED6A6ABA3", item: { count: 1, id: "create_new_age:reactor_casing" }, type: "item", count: 8L }
+				{ id: "1988329294D08FC1", item: { count: 1, id: "create_new_age:reactor_rod" }, type: "item", count: 4L }
+			]
+			title: "Reactor nuclear"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "6 · Electricidad"
+}

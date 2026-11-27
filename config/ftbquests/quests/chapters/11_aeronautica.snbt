@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11_aeronautica"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "aeronautics:propeller_bearing" }
+	id: "2FAB48D5137802EA"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["B660BD7DE55D3084"]
+			description: [
+				"Create Aeronautics: convierte construcciones en objetos con física."
+			]
+			id: "778521E3D9E35904"
+			rewards: [
+				{ id: "A276EF4FE1D379CA", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "921197BCC3BBEC20", item: { count: 1, id: "simulated:physics_assembler" }, type: "item" }
+			]
+			title: "Física"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["778521E3D9E35904"]
+			description: [
+				"Bloqueado: pide zanita del Aether."
+			]
+			id: "FC4EFDFA7329DADD"
+			rewards: [
+				{ id: "B78AE516A4F4C9B9", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "FAB5E6633745F979", item: { count: 1, id: "aeronautics:propeller_bearing" }, type: "item" }
+				{ id: "9D8806CD36C5C1F4", item: { count: 1, id: "aeronautics:wooden_propeller" }, type: "item" }
+			]
+			title: "Rodamiento de hélice"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FC4EFDFA7329DADD"]
+			description: [
+				"Aire caliente para flotar."
+			]
+			id: "971AEF1CAA1BD06E"
+			rewards: [
+				{ id: "16B9705270B12C0F", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "6C5E8DE9E57523E1", item: { count: 1, id: "aeronautics:white_envelope" }, type: "item", count: 16L }
+				{ id: "EB6352F16930BC06", item: { count: 1, id: "aeronautics:adjustable_burner" }, type: "item" }
+			]
+			title: "Envoltura"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["971AEF1CAA1BD06E"]
+			description: [
+				"Hace flotar lo que construyas."
+			]
+			id: "3FDAB0B90970D6D6"
+			rewards: [
+				{ id: "962610433BD68891", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "0871B68BEE8942B3", item: { count: 1, id: "aeronautics:levitite" }, type: "item", count: 8L }
+			]
+			title: "Levitita"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDAB0B90970D6D6"]
+			description: [
+				"Rumbo automático."
+			]
+			id: "AAFA2C427CF5DEC3"
+			rewards: [
+				{ id: "AA5AEE5EADDC5D03", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "A64C8D62306E515D", item: { count: 1, id: "simulated:navigation_table" }, type: "item" }
+				{ id: "3934671722F5673B", item: { count: 1, id: "aeronautics:smart_propeller" }, type: "item" }
+			]
+			title: "Navegación"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AAFA2C427CF5DEC3"]
+			description: [
+				"Vehículos terrestres hechos con Create."
+			]
+			id: "12F8E41C00AE2697"
+			rewards: [
+				{ id: "2810899587AE182D", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "E83934CE28A63938", item: { count: 1, id: "offroad:wheel_mount" }, type: "item", count: 4L }
+				{ id: "C864ACC2CBFF5357", item: { count: 1, id: "offroad:tire" }, type: "item", count: 4L }
+			]
+			title: "Ruedas"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12F8E41C00AE2697"]
+			description: [
+				"Construye y vuela un dirigible de Create. Marca la misión cuando lo consigas."
+			]
+			id: "D11D739553201836"
+			rewards: [
+				{ id: "E500DC778A65AF21", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "B5EE362A74A7C97A", type: "checkmark" }
+			]
+			title: "Tu propio dirigible"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["D11D739553201836"]
+			description: [
+				"Mochila propulsada por aire."
+			]
+			id: "EE0B21BBBFBD5EDB"
+			rewards: [
+				{ id: "C8C9715932C11A12", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "288661C02ECB168D", item: { count: 1, id: "create_jetpack:jetpack" }, type: "item" }
+			]
+			title: "Jetpack"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["EE0B21BBBFBD5EDB"]
+			description: [
+				"Resiste lava."
+			]
+			id: "5DEB9C9885CDF437"
+			rewards: [
+				{ id: "8DD92FC3FE95CE47", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ id: "C182D0FB4B90F9C5", item: { count: 1, id: "create_jetpack:netherite_jetpack" }, type: "item" }
+			]
+			title: "Jetpack de netherita"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "Create Aeronautics"
+}

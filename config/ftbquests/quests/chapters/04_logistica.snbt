@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04_logistica"
+	group: "A28261F73C539940"
+	icon: { count: 1, id: "create:controls" }
+	id: "2EC4EE58BB285AC5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1603E98CBFE81D90"]
+			description: [
+				"Steam 'n' Rails añade vías de todos los materiales."
+			]
+			id: "6EDF145D24D08FDB"
+			rewards: [
+				{ id: "91BB8B91119AE789", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "FFB4EFD1B913E2EB", item: { count: 1, id: "create:track" }, type: "item", count: 64L }
+			]
+			title: "Vías"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EDF145D24D08FDB"]
+			description: [
+				"Monta el tren en la estación."
+			]
+			id: "DE62B3C75A05A0D9"
+			rewards: [
+				{ id: "436F5C5DB98831BF", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "95F115551C2CAA82", item: { count: 1, id: "create:track_station" }, type: "item", count: 2L }
+				{ id: "1D60C5C6DABB21CD", item: { count: 1, id: "create:railway_casing" }, type: "item", count: 8L }
+			]
+			title: "Estación"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DE62B3C75A05A0D9"]
+			description: [
+				"Pon los controles, monta el tren y conduce. Marca la misión cuando lo hayas hecho."
+			]
+			id: "D3B07DCC01CD49D1"
+			rewards: [
+				{ id: "B3E436EA31E453FB", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "347099B3BB18B4B8", item: { count: 1, id: "create:controls" }, type: "item" }
+				{ id: "7CC76459F2E5D4E7", type: "checkmark" }
+			]
+			title: "Tu primer tren"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D3B07DCC01CD49D1"]
+			description: [
+				"Trenes automáticos entre estaciones."
+			]
+			id: "4EF4F96EC2BF6381"
+			rewards: [
+				{ id: "5849A7283ED50A93", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "FEC71F91CEC8C8CB", item: { count: 1, id: "create:schedule" }, type: "item" }
+			]
+			title: "Horarios"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EF4F96EC2BF6381"]
+			description: [
+				"Llama a tu tren desde cualquier sitio."
+			]
+			id: "E722F5C97C2E002C"
+			rewards: [
+				{ id: "4E85A19B75BFDE78", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "BBF5EF699099CF8D", item: { count: 1, id: "railways:conductor_whistle" }, type: "item" }
+			]
+			title: "Revisor"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E722F5C97C2E002C"]
+			description: [
+				"La logística de Create 6: pide objetos y llegan en paquete."
+			]
+			id: "68BF60A3875A575E"
+			rewards: [
+				{ id: "5A3BE56817FF142D", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "0BFDB548EE3BFA55", item: { count: 1, id: "create:packager" }, type: "item", count: 2L }
+				{ id: "7CA146AB34E90144", item: { count: 1, id: "create:stock_ticker" }, type: "item" }
+			]
+			title: "Paquetes"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68BF60A3875A575E"]
+			description: [
+				"Paquetes que viajan por cadenas aéreas."
+			]
+			id: "9C28F0B5AF267E4C"
+			rewards: [
+				{ id: "2D5999C91096CC2C", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "82CB7FEFD2C763D4", item: { count: 1, id: "create:chain_conveyor" }, type: "item", count: 4L }
+			]
+			title: "Transportador de cadena"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["9C28F0B5AF267E4C"]
+			description: [
+				"Viaja tú mismo a toda velocidad."
+			]
+			id: "56FD9A8B4093C81E"
+			rewards: [
+				{ id: "38ED59DC96CE4A81", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ id: "7608E7448721CA80", item: { count: 1, id: "create_hypertube:hypertube" }, type: "item", count: 16L }
+				{ id: "51E7146B0AC9C202", item: { count: 1, id: "create_hypertube:hypertube_entrance" }, type: "item" }
+			]
+			title: "Hypertubos"
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "4 · Logística y trenes"
+}
