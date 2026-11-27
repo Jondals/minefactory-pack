@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Shaders"
   },
-  "tip": {
+  "text": {
     "text": "Los shaders vienen apagados. Pulsa K para encenderlos o apagarlos al momento."
   }
 }

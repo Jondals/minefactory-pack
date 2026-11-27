@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Dimensiones"
   },
-  "tip": {
+  "text": {
     "text": "Hay cinco dimensiones nuevas: Twilight Forest, Deeper and Darker, The Aether, Eternal Starlight y el espacio."
   }
 }

@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Forever"
   },
-  "tip": {
+  "text": {
     "text": "Este es el pack para siempre: se actualiza solo y nunca se rompe el mundo."
   }
 }

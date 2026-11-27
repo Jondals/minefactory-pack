@@ -149,6 +149,10 @@ file = "config/ftbquests/quests/chapters/08_espacio.snbt"
 hash = "5484608668672472adbeb2cbc0aaa2662cda9d93f2e6495f9741bc2659f581f0"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/09_exploracion.snbt"
+hash = "2b60ec7726b29e8b544a7f1a738f8a5a7b230d6f54316448b1cd9832a292e9bc"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/10_aviacion.snbt"
 hash = "c35be78e20fb3a610d7624b2077d043f60f8c4030bc61245ad5006c957b4205a"
 
@@ -170,15 +174,15 @@ hash = "50b5892af4b469a9be2ad4d149d36e5bbb24a8b8594295117024615387c93bcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15_cocina.snbt"
-hash = "46010d8bfc1dd6855a73b39057cbe68b63c3ae0ddf4937869ead62cb7d39969c"
+hash = "d4532c772eca2fa30be77d8edb1145baaffba3cc59d65a66864ca39de9a02afb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/16_mascotas.snbt"
-hash = "6e0d9a6b80937e3b3ef38baa8a84639de07c14137a2c80d699a3610aeb4013d5"
+hash = "4734988d24189afe7ac91fec0726e2aef4370f8427bd84107d147c1d36f87b6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/17_fotografia.snbt"
-hash = "764cd03131e26653985887f654e16906e35ecdd7703b64a1d007befafe5c1541"
+hash = "2d93ec2e0bf2923e0cb6e30f92faf2b1935f00a15b0d50400a9e2ef9d89181c2"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2448,75 +2452,75 @@ hash = "19a922581ebaf8b4ed219ceefa31b1b864d58e5cf27799f6da01b777bd33854d"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_00.json"
-hash = "4becf114c4ca8230ea8e94785adac88099aafecc2c6d427bd94f3f7889eb26d7"
+hash = "949599f390e1ef5699a2029c5c73b01593a5f5a185b879a7feda6373236b524c"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_01.json"
-hash = "cc5c4165518b6939598cc7319e63ceb92b1dd5750f7337b58ca227727ded6d14"
+hash = "cfc1582531ddb8433374968685d905aab0d7063435eab8ddbff12b7711fc3a3e"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_02.json"
-hash = "8f78c454043ebd07a4dc816d19db8b073d6e3025f831eec90dcdf25b58866fdb"
+hash = "f591b9e11d4d1c1c81115975cfca620d0c7ad9a65519901be741eb0951593980"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_03.json"
-hash = "8a7c3fd24d08b4121bf40128556a792172207c85f55d7ced0e9c8fd04c4aafa2"
+hash = "95157a9226a8bbb2485d404b881c66319ada0813470a8b9778116cacdcc6373a"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_04.json"
-hash = "96e55eee38b01ee222a1fc375404cb6185ad499f18d576d7f6f32ed6e012cb15"
+hash = "ed1f4515c7bee5f2c7ecd67085d9216014ffe31fecae2a84c13071b7e7540bcb"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_05.json"
-hash = "05b951b19e2489935780db4ac597f00d946bf05625af3b2998594f912b1d94e9"
+hash = "cdcad30a50b8ca7df3349a4b4043daf1409a757cdebd4000f0741a99bb0ddc00"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_06.json"
-hash = "3fe70dabfbbb61313af81a2a2bc87ef4f562f7e73dbad2143d8f4bcc97afd651"
+hash = "e5c776d248a95c4608be141176174d3e4fa7a2e47f016220eadfd22ce91c04e6"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_07.json"
-hash = "7764c578ae58c57aa2f5e4fd7f8639a23f803d8147d6ed857cf80967eb6d5549"
+hash = "6ac309232e4e7487b6041fc52375973f666f75f7e79c276fa888240635dcbb77"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_08.json"
-hash = "6fb2fe690461b49b99d647a64db3c958ec625078a1917c6443f69ce65e5feec9"
+hash = "26e24db61d285653cda8b4b25ca449834f4eb79246a06bc8986747a4d35c1e01"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_09.json"
-hash = "804b52ce0e059b58bc5843ee147fc54902671eb9a6d6b6eb5b2cd729ffeaa871"
+hash = "5f936d7663abfc83748ca4c1c1e3b2637fa10827209a17f536caf6bbeebbde48"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_10.json"
-hash = "8c2169b7aceabc660481441033f04a433db3852d9285631db734e5beab915618"
+hash = "c27946fe0e23de701a66d9563112c359849f0e9d553180182092572877d75caa"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_11.json"
-hash = "d01f8672b54f3a5fac410a72261929fdee1e9915511a7b0a9b281f37ad16fe03"
+hash = "a776355e500c3a8ee03b14b90d432d3284a5584e04287e61294be184b05445f2"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_12.json"
-hash = "2bc29d43d8cf7321e4ef2ed006640e8d635ce9ffd93d97de2da80bcfc37cb468"
+hash = "334c8c90e353ed8647ca9e5ae2a7f68ef181b486221c0a00d95f0efed67b2388"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_13.json"
-hash = "95562b56989006d8f9fda085b9c925c5aea3f5d01ac18187960ed787a4efc8af"
+hash = "4ece8f76d018369dfd11146691fdc0e99019f10abced05acb6be34d6973f7a99"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_14.json"
-hash = "6ec7c2f148851c79c88e7704a883e32f1160a4401a0e9a54e898798977ca4ada"
+hash = "e6470a8a1734703c32f20aa1096617f5a38e6e7651e8940977abb17541624f61"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_15.json"
-hash = "aec00a6e7903680346d6ffedbd533db573861d5b46ad66f9d496b1eeb3097074"
+hash = "a939a2b742520737bbbbb72eb48a95d9f587b99b7bc37d345a30d901542aeaf5"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_16.json"
-hash = "27f320ac0539d4507f7cb0e35d17457061630926996cc7381aea91e26a964ec8"
+hash = "0ec342654b0daa807087b94e3a847ee070d678ee2360b05565b76d5d1bf73b99"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/assets/minefactory/tips/tip_17.json"
-hash = "e1ab6c46388b29049bfd0b2a340c3814db9410bba6cbcde4022559924dfd77eb"
+hash = "785668912db3a5ffe60195a1d4ebd95426117b8824e0b5ed8c1495f04b532b36"
 
 [[files]]
 file = "resourcepacks/MineFactory-Extras/pack.mcmeta"
@@ -2527,13 +2531,58 @@ file = "resourcepacks/MineFactory-Extras/pack.png"
 hash = "59e331888acf2900915e5aecc4cdf99a0538138ea79f453347f4a597a14e7ec7"
 
 [[files]]
+file = "resourcepacks/alternative-rain-sounds.pw.toml"
+hash = "07cbda5bf5ba5a5a7fd8f4e3c5950b63bdc1151b927bfcc06340ffce64aa5dfc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/animated-items.pw.toml"
+hash = "3eae18e725cb8eb6eeb3becd6a07a0a017a26335547f1193fe43779e59157956"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-lanterns.pw.toml"
+hash = "a7fc8c31dabaa7c69e27865c7302c3bf750a17fc627746a34c3a8d07a41fbbcd"
+metafile = true
+
+[[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
 metafile = true
 
 [[files]]
+file = "resourcepacks/blinking-ender-eyes.pw.toml"
+hash = "1537686c08f9af38f52b89c0bc3745e2f7e50700e8567dd393fb3e0a09c6b15f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/dramatic-skys.pw.toml"
+hash = "82934259b0eb4a7b4106c606d4c1025903554a9cbfdfd399bda54668bc7b6d6f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/enchant-icons-countxd.pw.toml"
+hash = "4bb8ca44a3571fed5b37220e96071527f81aa184ba0e2b26eaeaa1386f4545c1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/enhanced-audio.pw.toml"
+hash = "147e7e5e622cfbd408a914a45466e6083f9f4ee6bfaa908cd765bf0c044fcedd"
+metafile = true
+
+[[files]]
 file = "resourcepacks/even-better-enchants.pw.toml"
 hash = "123aedbad1318ddfaef3173c56994542077ff0f8fd9982bfb3430b331d46323a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fancy-beds.pw.toml"
+hash = "602f123bdff3b0843472e60a673aab77c2e2cd82a09bd79865893fe299b648c2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/font-plus-plus.pw.toml"
+hash = "58b3dbb7f23444afc0d18396e1610a39d1c0a230560d5c9a00d3382ff1394803"
 metafile = true
 
 [[files]]
@@ -2557,8 +2606,33 @@ hash = "a6b96cab4ed07ad9dd01268a4e72f20bd489815f66677df0ee6c9f41c8c16e15"
 metafile = true
 
 [[files]]
+file = "resourcepacks/rays-3d-ladders.pw.toml"
+hash = "51b07c5aca8ea3ad75a277ed2f3de14fa635edbf54e840787e8a5c5ca6aca320"
+metafile = true
+
+[[files]]
+file = "resourcepacks/rays-3d-rails.pw.toml"
+hash = "fb6dae5d3d0c12855c38ce6ed4d1d34f37ecad7314f0a76a3104d8dc3b7d7bc0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/torches-reimagined.pw.toml"
+hash = "3192b1c7888748079ac64a45748a8a4807f41fa81b098f60476645e0352c83fc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "4705b53552b1acfb5c8f1fe65b40a1e122fab614eacaa15bc993ea1e5a16270c"
+metafile = true
+
+[[files]]
 file = "resourcepacks/tras-fresh-player.pw.toml"
 hash = "1842144de7d1cab45f4e2a5e28bd87672316b21db24effc1047f0277dd9c0c38"
+metafile = true
+
+[[files]]
+file = "resourcepacks/unique-dark.pw.toml"
+hash = "e7e1c33395228298c84ce0caa62db7b9ce623fb21cfe2cc0499cf5faa4585aa6"
 metafile = true
 
 [[files]]

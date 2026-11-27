@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Shaders"
   },
-  "tip": {
+  "text": {
     "text": "Complementary Reimagined es el shader ligero: úsalo en bases grandes de Create."
   }
 }

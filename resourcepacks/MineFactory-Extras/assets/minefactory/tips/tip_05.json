@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Espacio"
   },
-  "tip": {
+  "text": {
     "text": "Ad Astra: construye un cohete y llega a la Luna, Marte y más allá."
   }
 }

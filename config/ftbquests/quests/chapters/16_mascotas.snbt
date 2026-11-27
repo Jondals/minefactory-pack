@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "doggytalents:training_treat" }
 	id: "45DF6326436E4CB5"
-	order_index: 14
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

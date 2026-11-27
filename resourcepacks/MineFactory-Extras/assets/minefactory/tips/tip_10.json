@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Música"
   },
-  "tip": {
+  "text": {
     "text": "Con Etched podéis grabar vuestros propios discos de música."
   }
 }

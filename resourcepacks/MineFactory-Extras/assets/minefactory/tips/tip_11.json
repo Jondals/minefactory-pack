@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Rendimiento"
   },
-  "tip": {
+  "text": {
     "text": "Si el mundo da tirones al explorar, pregenéralo en el servidor con /chunky start."
   }
 }

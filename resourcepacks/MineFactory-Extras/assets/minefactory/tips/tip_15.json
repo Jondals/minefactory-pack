@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Texturas"
   },
-  "tip": {
+  "text": {
     "text": "Cambiar de pack de texturas ya no congela el juego: se recarga en segundo plano mientras sigues jugando."
   }
 }

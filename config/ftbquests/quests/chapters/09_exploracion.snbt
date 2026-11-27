@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "09_exploracion"
+	group: "57D60AC80CCDA179"
+	icon: { count: 1, id: "naturescompass:naturescompass" }
+	id: "5EFF1B48591278A6"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"La brújula de la naturaleza busca biomas; la del explorador, estructuras. Con ellas cumpliréis este capítulo."
+			]
+			id: "91F93B836E4B6850"
+			rewards: [
+				{ id: "EC61A160FF74E343", type: "xp", xp: 50 }
+				{ count: 4, id: "E4E651888F2046D7", item: { count: 1, id: "waystones:warp_scroll" }, type: "item" }
+			]
+			tasks: [
+				{ id: "9C97329739CE2F4C", item: { count: 1, id: "naturescompass:naturescompass" }, type: "item" }
+				{ id: "247ACCACF6F9B36F", item: { count: 1, id: "explorerscompass:explorerscompass" }, type: "item" }
+			]
+			title: "Brújulas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Terralith: árboles plateados bajo la luna."
+			]
+			id: "4F530D888BB13F03"
+			rewards: [
+				{ id: "B2DE884B92223332", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "terralith:moonlight_grove", id: "ACF51F60F94B5E9C", type: "biome" }
+			]
+			title: "Arboleda lunar"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Paredes de cristal morado."
+			]
+			id: "BDEB8D4B9FF50D88"
+			rewards: [
+				{ id: "E53CB5607328E18A", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "terralith:amethyst_canyon", id: "A6C2931769ECEBD7", type: "biome" }
+			]
+			title: "Cañón de amatista"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Islas flotando sobre el agua."
+			]
+			id: "2064FDA8DCA21A08"
+			rewards: [
+				{ id: "96CB172860C90641", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ biome: "terralith:mirage_isles", id: "6D940C1763234288", type: "biome" }
+			]
+			title: "Islas espejismo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Huele de maravilla."
+			]
+			id: "E851B51FB7A7F336"
+			rewards: [
+				{ id: "9837A598CF067D37", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ biome: "terralith:lavender_valley", id: "EB32281AA2FB1304", type: "biome" }
+			]
+			title: "Valle de lavanda"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Regions Unexplored: árboles enormes."
+			]
+			id: "5FF22E5800CD2BA9"
+			rewards: [
+				{ id: "1D5535EE888008FD", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "regions_unexplored:redwoods", id: "65016B53B095B359", type: "biome" }
+			]
+			title: "Secuoyas gigantes"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Hojas naranjas todo el año."
+			]
+			id: "E2C90B28ED357E70"
+			rewards: [
+				{ id: "09AA3BBF26CA58C9", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "regions_unexplored:autumnal_maple_forest", id: "1F83FADAE59E57DB", type: "biome" }
+			]
+			title: "Bosque de arces otoñal"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Una grieta llena de cristales de colores."
+			]
+			id: "F19AEA0C6A592B31"
+			rewards: [
+				{ id: "E217371D91B6144E", type: "xp", xp: 120 }
+			]
+			tasks: [
+				{ biome: "regions_unexplored:prismachasm", id: "95038E7C09B4CBE4", type: "biome" }
+			]
+			title: "Prismachasm"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Biomes O' Plenty: magia en el aire."
+			]
+			id: "ACF460062EDAB6F2"
+			rewards: [
+				{ id: "155B28D852BE1F59", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "biomesoplenty:mystic_grove", id: "07F7C5105B90C3F5", type: "biome" }
+			]
+			title: "Arboleda mística"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Árboles morados en flor."
+			]
+			id: "512E8D4178889FB4"
+			rewards: [
+				{ id: "BB8D00356060D2C9", type: "xp", xp: 60 }
+			]
+			tasks: [
+				{ biome: "biomesoplenty:jacaranda_glade", id: "FBE989CD090593E1", type: "biome" }
+			]
+			title: "Claro de jacarandas"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Cerezos nevados."
+			]
+			id: "7330B11B2598FDBA"
+			rewards: [
+				{ id: "08B3125CE6ADD8A4", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "biomesoplenty:snowblossom_grove", id: "E177F4CE50D5DDCB", type: "biome" }
+			]
+			title: "Arboleda de flor de nieve"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Nature's Spirit: cedros japoneses."
+			]
+			id: "29ECE15626994B5E"
+			rewards: [
+				{ id: "C0546BD10B349F2E", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "natures_spirit:sugi_forest", id: "3612F63686851FE0", type: "biome" }
+			]
+			title: "Bosque de sugi"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Costa de tiza sobre el mar."
+			]
+			id: "D4ECDFC520477F6D"
+			rewards: [
+				{ id: "6948322B58687F23", type: "xp", xp: 80 }
+			]
+			tasks: [
+				{ biome: "natures_spirit:white_cliffs", id: "DE848B7CE2277003", type: "biome" }
+			]
+			title: "Acantilados blancos"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Moog's Voyager Structures. Usad la brújula del explorador."
+			]
+			id: "697A142AB4202737"
+			rewards: [
+				{ id: "88099C8532260F52", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "544E6B90AD89413F", structure: "mvs:cathedral", type: "structure" }
+			]
+			title: "La catedral"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"Incendium, en el Nether. Peligroso."
+			]
+			id: "5006F8066FC4DB56"
+			rewards: [
+				{ id: "F63B6800683884B7", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ id: "02DDB583AF36ABF9", structure: "incendium:forbidden_castle", type: "structure" }
+			]
+			title: "Castillo prohibido"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["91F93B836E4B6850"]
+			description: [
+				"En el Otro Lado. Silencio absoluto."
+			]
+			id: "783D8B13BB0E9CCD"
+			rewards: [
+				{ id: "A7FA9CB12CEE8537", type: "xp", xp: 250 }
+				{ count: 8, id: "8D7A65CA8E6636A6", item: { count: 1, id: "minecraft:diamond" }, type: "item" }
+			]
+			tasks: [
+				{ id: "98F66D4C13744FEC", structure: "deeperdarker:ancient_temple", type: "structure" }
+			]
+			title: "Templo antiguo"
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "Exploración"
+}

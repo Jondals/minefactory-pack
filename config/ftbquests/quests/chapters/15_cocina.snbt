@@ -5,7 +5,7 @@
 	group: "57D60AC80CCDA179"
 	icon: { count: 1, id: "farmersdelight:stove" }
 	id: "4E845D179402128A"
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

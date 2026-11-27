@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
-    "text": "Voz"
+    "text": "Misiones"
   },
-  "tip": {
-    "text": "Simple Voice Chat: habla por proximidad. Pulsa V para abrir sus ajustes."
+  "text": {
+    "text": "Abre el libro de misiones (tecla de FTB Quests o el libro del inventario): os guía de la fábrica a las estrellas."
   }
 }

@@ -1,0 +1,13 @@
+name = "RAY's 3D Ladders"
+filename = "RAYs_3D_Ladders_v2.5.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uupo7yGf/versions/6ubKzVD3/RAYs_3D_Ladders_v2.5.zip"
+hash-format = "sha512"
+hash = "4e58efe5875d419c8b5243b8959c5971e1125ec0c05b1e28d15f9b31fae2dbbd015cbf2fd8adfda06f438e5f3e96f84848a1211dfbcace05ee4a4488af6e7ff6"
+
+[update]
+[update.modrinth]
+mod-id = "Uupo7yGf"
+version = "6ubKzVD3"

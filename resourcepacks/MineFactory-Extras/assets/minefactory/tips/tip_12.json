@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Teclas"
   },
-  "tip": {
+  "text": {
     "text": "Con tantos mods, usa el buscador de Controles para encontrar cualquier tecla."
   }
 }

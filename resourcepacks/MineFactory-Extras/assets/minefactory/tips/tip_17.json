@@ -1,8 +1,9 @@
 {
+  "type": "tipsmod:simple",
   "title": {
     "text": "Cámara"
   },
-  "tip": {
+  "text": {
     "text": "Pulsa F5 para la cámara al hombro, ideal para ver tus construcciones mientras andas."
   }
 }

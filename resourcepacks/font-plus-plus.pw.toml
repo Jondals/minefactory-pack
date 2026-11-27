@@ -1,0 +1,13 @@
+name = "Font++"
+filename = "Font++ 1.0.9 (1.21.X or 26.X).zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mzhxLHmQ/versions/a9uetwZP/Font%2B%2B%201.0.9%20%281.21.X%20or%2026.X%29.zip"
+hash-format = "sha512"
+hash = "4dcca960f81889d9f8d54a4277c67f119f7a25f1ef4d792ae6765334cbf8addf9d4419ab3f094c597379b83b4399a0f5d85ebb1152bbb250178850d77b456076"
+
+[update]
+[update.modrinth]
+mod-id = "mzhxLHmQ"
+version = "a9uetwZP"
